@@ -1,0 +1,453 @@
+<!DOCTYPE html>
+  
+  
+  
+  
+   <html class="no-js"> 
+
+  <head lang="en-us">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,user-scalable=no,initial-scale=1,maximum-scale=1">
+    <meta http-equiv="X-UA-Compatible" content="IE=10" />
+    <title>LABSIM Technical Docs - LABSIM Technical Docs</title>
+    <meta name="generator" content="Hugo 0.18.1" />
+
+    
+    <meta name="description" content="A technical documentatuion about the LABSIM simulation software ecosystem.">
+    
+    <link rel="canonical" href="https://labsim.github.io/technical-doc/">
+    
+    <meta name="author" content="LABSIM">
+    
+
+    <meta property="og:url" content="https://labsim.github.io/technical-doc/">
+    <meta property="og:title" content="LABSIM Technical Docs">
+    <meta property="og:image" content="https://labsim.github.io/technical-doc/img/logo.png">
+    <meta name="apple-mobile-web-app-title" content="LABSIM Technical Docs">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+
+    <link rel="shortcut icon" type="image/x-icon" href="https://labsim.github.io/technical-doc/img/favico.ico">
+    <link rel="icon" type="image/x-icon" href="https://labsim.github.io/technical-doc/img/favico.ico">
+
+    <style>
+      @font-face {
+        font-family: 'Icon';
+        src: url('https://labsim.github.io/technical-doc/fonts/icon.eot');
+        src: url('https://labsim.github.io/technical-doc/fonts/icon.eot')
+               format('embedded-opentype'),
+             url('https://labsim.github.io/technical-doc/fonts/icon.woff')
+               format('woff'),
+             url('https://labsim.github.io/technical-doc/fonts/icon.ttf')
+               format('truetype'),
+             url('https://labsim.github.io/technical-doc/fonts/icon.svg')
+               format('svg');
+        font-weight: normal;
+        font-style: normal;
+      }
+    </style>
+
+    <link rel="stylesheet" href="https://labsim.github.io/technical-doc/stylesheets/application.css">
+    <link rel="stylesheet" href="https://labsim.github.io/technical-doc/stylesheets/temporary.css">
+    <link rel="stylesheet" href="https://labsim.github.io/technical-doc/stylesheets/palettes.css">
+    <link rel="stylesheet" href="https://labsim.github.io/technical-doc/Googlecode">
+
+    
+    
+    
+    <link rel="stylesheet" href="//fonts.googleapis.com/css?family=Roboto:400,700|Roboto&#43;Mono">
+    <style>
+      body, input {
+        font-family: 'Roboto', Helvetica, Arial, sans-serif;
+      }
+      pre, code {
+        font-family: 'Roboto Mono', 'Courier New', 'Courier', monospace;
+      }
+    </style>
+
+    
+    <script src="https://labsim.github.io/technical-doc/javascripts/modernizr.js"></script>
+
+    
+
+  </head>
+  <body class="palette-primary-blue-grey palette-accent-amber">
+
+
+
+
+<div class="backdrop">
+	<div class="backdrop-paper"></div>
+</div>
+
+<input class="toggle" type="checkbox" id="toggle-drawer">
+<input class="toggle" type="checkbox" id="toggle-search">
+<label class="toggle-button overlay" for="toggle-drawer"></label>
+
+<header class="header">
+	<nav aria-label="Header">
+  <div class="bar default">
+    <div class="button button-menu" role="button" aria-label="Menu">
+      <label class="toggle-button icon icon-menu" for="toggle-drawer">
+        <span></span>
+      </label>
+    </div>
+    <div class="stretch">
+      <div class="title">
+        LABSIM Technical Docs
+      </div>
+    </div>
+
+    
+
+    
+    <div class="button button-github" role="button" aria-label="GitHub">
+      <a href="https://github.com/labsim" title="@labsim on GitHub" target="_blank" class="toggle-button icon icon-github"></a>
+    </div>
+    
+    
+        
+  </div>
+  <div class="bar search">
+    <div class="button button-close" role="button" aria-label="Close">
+      <label class="toggle-button icon icon-back" for="toggle-search"></label>
+    </div>
+    <div class="stretch">
+      <div class="field">
+        <input class="query" type="text" placeholder="Search" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck>
+      </div>
+    </div>
+    <div class="button button-reset" role="button" aria-label="Search">
+      <button class="toggle-button icon icon-close" id="reset-search"></button>
+    </div>
+  </div>
+</nav>
+</header>
+
+<main class="main">
+	<div class="drawer">
+		<nav aria-label="Navigation">
+  <a href="https://labsim.github.io/technical-doc/" class="project">
+    <div class="banner">
+      
+        <div class="logo">
+          <img src="https://labsim.github.io/technical-doc/img/logo.png">
+        </div>
+      
+      <div class="name">
+        <strong>LABSIM Technical Docs <span class="version">v0.0.1a</span></strong>
+        
+      </div>
+    </div>
+  </a>
+
+  <div class="scrollable">
+    <div class="wrapper">
+      
+
+      <div class="toc">
+        
+        <ul>
+          
+
+
+
+
+<li>
+  
+    
+
+
+
+<a  title="LABSIM Technical Docs" href="https://labsim.github.io/technical-doc/">
+	
+	LABSIM Technical Docs
+</a>
+
+
+
+  
+</li>
+
+
+
+<li>
+  
+    
+
+
+
+<a  title="Introduction" href="https://labsim.github.io/technical-doc/introduction/">
+	
+	Introduction
+</a>
+
+
+
+  
+</li>
+
+
+
+<li>
+  
+    
+
+
+
+<a  title="Software architecture" href="https://labsim.github.io/technical-doc/software-architecture/">
+	
+	Software architecture
+</a>
+
+
+
+  
+</li>
+
+
+
+<li>
+  
+    
+
+
+
+<a  title="Software topology" href="https://labsim.github.io/technical-doc/software-topology/">
+	
+	Software topology
+</a>
+
+
+
+  
+</li>
+
+
+
+<li>
+  
+    
+
+
+
+<a  title="Model integration pipeline" href="https://labsim.github.io/technical-doc/model-integration-pipeline/">
+	
+	Model integration pipeline
+</a>
+
+
+
+  
+</li>
+
+
+
+<li>
+  
+    
+
+
+
+<a  title="Simulation composition pipeline" href="https://labsim.github.io/technical-doc/simulation-composition-pipeline/">
+	
+	Simulation composition pipeline
+</a>
+
+
+
+  
+</li>
+
+
+
+<li>
+  
+    
+
+
+
+<a  title="Roadmap" href="https://labsim.github.io/technical-doc/roadmap/">
+	
+	Roadmap
+</a>
+
+
+
+  
+</li>
+
+
+        </ul>
+        
+
+        
+        <hr>
+        <span class="section">The author</span>
+        
+        <ul>
+          
+
+          
+          <li>
+            <a href="https://github.com/labsim" target="_blank" title="@labsim on GitHub">
+              @labsim on GitHub
+            </a>
+          </li>
+          
+
+          
+          <li>
+            <a href="mailto:labsim.onera@gmail.com" title="Email of labsim.onera@gmail.com">
+              Contact via email
+            </a>
+          </li>
+          
+        </ul>
+        
+      </div>
+    </div>
+  </div>
+</nav>
+
+	</div>
+
+	<article class="article">
+		<div class="wrapper">
+			<h1>LABSIM Technical Docs </h1>
+
+			
+
+<h2 id="under-construction">Under construction</h2>
+
+<p><em>But you can always get back or discover our landing site</em> <strong><em><a href="https://labsim.github.io">here</a></em></strong> :)</p>
+
+
+			<aside class="copyright" role="note">
+				
+				&copy; 2017 Released under the MIT license &ndash;
+				
+				Documentation built with
+				<a href="https://www.gohugo.io" target="_blank">Hugo</a>
+				using the
+				<a href="http://github.com/digitalcraftsman/hugo-material-docs" target="_blank">Material</a> theme.
+			</aside>
+
+			<footer class="footer">
+				
+
+<nav class="pagination" aria-label="Footer">
+  <div class="previous">
+  
+      <a href="https://labsim.github.io/technical-doc/roadmap/" title="Roadmap">
+        <span class="direction">
+          Previous
+        </span>
+        <div class="page">
+          <div class="button button-previous" role="button" aria-label="Previous">
+            <i class="icon icon-back"></i>
+          </div>
+          <div class="stretch">
+            <div class="title">
+              Roadmap
+            </div>
+          </div>
+        </div>
+      </a>
+  
+  </div>
+
+  <div class="next">
+  
+      <a href="https://labsim.github.io/technical-doc/introduction/" title="Introductions">
+        <span class="direction">
+          Next
+        </span>
+        <div class="page">
+          <div class="stretch">
+            <div class="title">
+              Introductions
+            </div>
+          </div>
+          <div class="button button-next" role="button" aria-label="Next">
+            <i class="icon icon-forward"></i>
+          </div>
+        </div>
+      </a>
+  
+  </div>
+</nav>
+
+
+
+
+
+			</footer>
+		</div>
+	</article>
+
+	<div class="results" role="status" aria-live="polite">
+		<div class="scrollable">
+			<div class="wrapper">
+				<div class="meta"></div>
+				<div class="list"></div>
+			</div>
+		</div>
+	</div>
+</main>
+
+    <script>
+    
+      var base_url = '';
+      var repo_id  = '';
+    
+    </script>
+
+    <script src="https://labsim.github.io/technical-doc/javascripts/application.js"></script>
+    
+
+    <script>
+      /* Add headers to scrollspy */
+      var headers   = document.getElementsByTagName("h2");
+      var scrollspy = document.getElementById('scrollspy');
+
+      if(scrollspy) {
+        if(headers.length > 0) {
+          for(var i = 0; i < headers.length; i++) {
+            var li = document.createElement("li");
+            li.setAttribute("class", "anchor");
+
+            var a  = document.createElement("a");
+            a.setAttribute("href", "#" + headers[i].id);
+            a.setAttribute("title", headers[i].innerHTML);
+            a.innerHTML = headers[i].innerHTML;
+
+            li.appendChild(a)
+            scrollspy.appendChild(li);
+          }
+        } else {
+          scrollspy.parentElement.removeChild(scrollspy)
+        }
+
+
+        /* Add permanent link next to the headers */
+        var headers = document.querySelectorAll("h1, h2, h3, h4, h5, h6");
+
+        for(var i = 0; i < headers.length; i++) {
+            var a = document.createElement("a");
+            a.setAttribute("class", "headerlink");
+            a.setAttribute("href", "#" + headers[i].id);
+            a.setAttribute("title", "Permanent link")
+            a.innerHTML = "#";
+            headers[i].appendChild(a);
+        }
+      }
+    </script>
+
+    
+
+    <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.8.0/highlight.min.js"></script>
+    <script>hljs.initHighlightingOnLoad();</script>
+  </body>
+</html>
+
