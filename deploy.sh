@@ -21,9 +21,6 @@ git push origin gh-pages
 # Come Back
 cd ..
 
-# clean source
-#rm -rf public/*
-
 # Push content source
 git add -A
 msg="commiting fresh content"

@@ -1,3 +1,6 @@
 [submodule "themes/hugo-material-docs"]
 	path = themes/hugo-material-docs
 	url = https://github.com/digitalcraftsman/hugo-material-docs.git
+[submodule "public"]
+	path = public
+	url = ssh://git@github.com/LABSIM/technical-doc
