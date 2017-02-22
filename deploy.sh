@@ -2,9 +2,6 @@
 
 echo -e "\033[0;32mDeploying updates to GitHub...\033[0m"
 
-# clean source
-rm -rf public/*
-
 # Build the project.
 ~/Bureau/hugo_0.18.1_linux_amd64/hugo_0.18.1_linux_amd64 # if using a theme, replace by `hugo -t <yourtheme>`
 
@@ -25,7 +22,7 @@ git push origin gh-pages
 cd ..
 
 # clean source
-rm -rf public/*
+#rm -rf public/*
 
 # Push content source
 git add -A
