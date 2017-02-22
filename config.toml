@@ -1,0 +1,88 @@
+baseurl = "https://labsim.github.io/technical-doc/"
+languageCode = "en-us"
+title = "LABSIM Technical Docs"
+theme = "hugo-material-docs"
+metadataformat = "yaml"
+canonifyurls = true
+
+# Enable Google Analytics by entering your tracking id
+googleAnalytics = ""
+
+[params]
+
+	# General information
+	author = "LABSIM"
+	description = "A technical documentatuion about the LABSIM simulation software ecosystem."
+	copyright = "Released under the MIT license"
+
+	# Repository
+	provider = ""
+	repo_url = ""
+
+	version = "v0.0.1a"
+	logo = "img/logo.png"
+	favicon = "img/favico.ico"
+
+	permalink = "#"
+
+	# Custom assets
+	custom_css = []
+	custom_js  = []
+
+	# Syntax highlighting theme
+	highlight_css  = "Googlecode"
+
+	[params.palette]
+    	primary = "blue-grey"
+    	accent  = "amber"
+
+        [params.font]
+    	text = "Roboto"
+    	code = "Roboto Mono"
+
+
+[social]
+	twitter = ""
+	github  = "labsim"
+	email   = "labsim.onera@gmail.com"
+
+[[menu.main]]
+	name   = "LABSIM Technical Docs"
+	url    = "/"
+	weight = 0
+
+[[menu.main]]
+	name   = "Introduction"
+	url    = "introduction/"
+	weight = 10
+
+[[menu.main]]
+	name   = "Software architecture"
+	url    = "software-architecture/"
+	weight = 20
+
+[[menu.main]]
+	name   = "Software topology"
+	url    = "software-topology/"
+	weight = 30
+
+[[menu.main]]
+	name   = "Model integration pipeline"
+	url    = "model-integration-pipeline/"
+	weight = 40
+
+[[menu.main]]
+	name   = "Simulation composition pipeline"
+	url    = "simulation-composition-pipeline/"
+	weight = 50
+
+[[menu.main]]
+	name   = "Roadmap"
+	url    = "roadmap/"
+	weight = 60
+
+[blackfriday]
+	smartypants 	= true
+	fractions 	= true
+	smartDashes 	= true
+	plainIDAnchors 	= true
