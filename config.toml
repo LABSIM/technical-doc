@@ -34,7 +34,7 @@ googleAnalytics = ""
 
 	[params.palette]
     	primary = "blue-grey"
-    	accent  = "amber"
+    	accent  = "light-blue"
 
         [params.font]
     	text = "Roboto"
