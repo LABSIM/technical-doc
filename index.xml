@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>LABSIM Technical Docs</title>
+    <title>LABSIM Documentation</title>
     <link>https://labsim.github.io/technical-doc/index.xml</link>
-    <description>Recent content on LABSIM Technical Docs</description>
+    <description>Recent content on LABSIM Documentation</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>Released under the MIT license</copyright>
@@ -11,72 +11,108 @@
     <atom:link href="https://labsim.github.io/technical-doc/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
-      <title>Introduction</title>
-      <link>https://labsim.github.io/technical-doc/introduction/</link>
+      <title>The LABSIM Simulation Software Ecosystem</title>
+      <link>https://labsim.github.io/technical-doc/simulation-software-ecosystem/</link>
       <pubDate>Wed, 22 Feb 2017 17:00:00 +0100</pubDate>
       
-      <guid>https://labsim.github.io/technical-doc/introduction/</guid>
+      <guid>https://labsim.github.io/technical-doc/simulation-software-ecosystem/</guid>
       <description>
 
-&lt;h2 id=&#34;under-construction&#34;&gt;Under construction&lt;/h2&gt;
+&lt;h2 id=&#34;scientific-fields&#34;&gt;Scientific fields&lt;/h2&gt;
 
-&lt;p&gt;&lt;strong&gt;&lt;em&gt;TODO :)&lt;/em&gt;&lt;/strong&gt;&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Software architecture</title>
-      <link>https://labsim.github.io/technical-doc/software-architecture/</link>
-      <pubDate>Wed, 22 Feb 2017 17:00:00 +0100</pubDate>
-      
-      <guid>https://labsim.github.io/technical-doc/software-architecture/</guid>
-      <description>
+&lt;p&gt;&lt;br&gt;&lt;/p&gt;
 
-&lt;h2 id=&#34;under-construction&#34;&gt;Under construction&lt;/h2&gt;
+&lt;p&gt;The LABSIM simulatiom software ecosystem mainly cover 2 Applied Computer Science sub-fields :&lt;/p&gt;
 
-&lt;p&gt;&lt;strong&gt;&lt;em&gt;TODO :)&lt;/em&gt;&lt;/strong&gt;&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Software topology</title>
-      <link>https://labsim.github.io/technical-doc/software-topology/</link>
-      <pubDate>Wed, 22 Feb 2017 17:00:00 +0100</pubDate>
-      
-      <guid>https://labsim.github.io/technical-doc/software-topology/</guid>
-      <description>
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;Distributed Systems.&lt;/p&gt;&lt;/li&gt;
 
-&lt;h2 id=&#34;under-construction&#34;&gt;Under construction&lt;/h2&gt;
+&lt;li&gt;&lt;p&gt;Software Engineering.&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;
 
-&lt;p&gt;&lt;strong&gt;&lt;em&gt;TODO :)&lt;/em&gt;&lt;/strong&gt;&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Model integration pipeline</title>
-      <link>https://labsim.github.io/technical-doc/model-integration-pipeline/</link>
-      <pubDate>Wed, 22 Feb 2017 17:00:00 +0100</pubDate>
-      
-      <guid>https://labsim.github.io/technical-doc/model-integration-pipeline/</guid>
-      <description>
+&lt;p&gt;And a much more transverse one :&lt;/p&gt;
 
-&lt;h2 id=&#34;under-construction&#34;&gt;Under construction&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;VR&lt;/strong&gt; (Virtual-Reality) and it&amp;rsquo;s extension &lt;strong&gt;AR&lt;/strong&gt; (Augmented-Reality) &amp;amp; &lt;strong&gt;MR&lt;/strong&gt; (Mixed-Reality).&lt;/li&gt;
+&lt;/ul&gt;
 
-&lt;p&gt;&lt;strong&gt;&lt;em&gt;TODO :)&lt;/em&gt;&lt;/strong&gt;&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Simulation composition pipeline</title>
-      <link>https://labsim.github.io/technical-doc/simulation-composition-pipeline/</link>
-      <pubDate>Wed, 22 Feb 2017 17:00:00 +0100</pubDate>
-      
-      <guid>https://labsim.github.io/technical-doc/simulation-composition-pipeline/</guid>
-      <description>
+&lt;p&gt;&lt;br&gt;&lt;/p&gt;
 
-&lt;h2 id=&#34;under-construction&#34;&gt;Under construction&lt;/h2&gt;
+&lt;hr /&gt;
 
-&lt;p&gt;&lt;strong&gt;&lt;em&gt;TODO :)&lt;/em&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;h2 id=&#34;guidelines&#34;&gt;Guidelines&lt;/h2&gt;
+
+&lt;p&gt;&lt;br&gt;&lt;/p&gt;
+
+&lt;p&gt;As a rule of thumb, we stated 5 guidelines since early conception stage of the LABSIM simulation software ecosystem. And these rules are not something we get out of nowhere, they are not the result of a hype brainstorming that we could have held once in a really secret HQ with superstar dev &amp;amp; amazing buisnessman.&lt;/p&gt;
+
+&lt;p&gt;Well&amp;hellip; &lt;strong&gt;&lt;em&gt;Nope&lt;/em&gt;&lt;/strong&gt;.&lt;/p&gt;
+
+&lt;p&gt;They are what researcher &lt;em&gt;care about&lt;/em&gt; when they have deal with &lt;em&gt;real-time piloted simulation studies&lt;/em&gt;. They simply are the &amp;ldquo;polished&amp;rdquo; needs of our rearcher. As simple as it sounds. At least, we &lt;em&gt;hope&lt;/em&gt; it is :)&lt;/p&gt;
+
+&lt;p&gt;&lt;br&gt;&lt;/p&gt;
+
+&lt;h3 id=&#34;1-human-centered&#34;&gt;1. Human-centered&lt;/h3&gt;
+
+&lt;p&gt;Once again, &lt;em&gt;real-time piloted simulation&lt;/em&gt;.&lt;/p&gt;
+
+&lt;p&gt;And by piloted, we mean that our subject of interest is mainly a human beeing operator and our evaluation criteria could be : simulation fidelity, acceptability, ergomomy, piloting performance, neuroergonomy, agency, sense of control, multi-agent collaboration&amp;hellip; So, we naturally design our ecosystem to match some human-oriented design theory for real-time simulation, as said, the &lt;strong&gt;VR&lt;/strong&gt;.&lt;/p&gt;
+
+&lt;p&gt;Our main source of inspiration came from these two sketches.&lt;/p&gt;
+
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th align=&#34;center&#34;&gt;&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td align=&#34;center&#34;&gt;&lt;img src=&#34;https://labsim.github.io/technical-doc/img/sketch/perception-cognition-action-loop.png&#34; alt=&#34;sketch_loop_VR&#34; /&gt;&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td align=&#34;center&#34;&gt;&lt;em&gt;Perception, cognition, action loop&lt;/em&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th align=&#34;center&#34;&gt;&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td align=&#34;center&#34;&gt;&lt;img src=&#34;https://labsim.github.io/technical-doc/img/sketch/techno-centric-approch-VR.png&#34; alt=&#34;sketch_tech_VR&#34; /&gt;&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td align=&#34;center&#34;&gt;&lt;em&gt;Technocentric reference scheme in VR&lt;/em&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;h3 id=&#34;2-performance-focused&#34;&gt;2. Performance focused&lt;/h3&gt;
+
+&lt;h3 id=&#34;3-modular&#34;&gt;3. Modular&lt;/h3&gt;
+
+&lt;h3 id=&#34;4-multi-disciplinar&#34;&gt;4. Multi-disciplinar&lt;/h3&gt;
+
+&lt;h3 id=&#34;5-code-less&#34;&gt;5. Code-less&lt;/h3&gt;
+
+&lt;h2 id=&#34;software-topology&#34;&gt;Software Topology&lt;/h2&gt;
+
+&lt;h2 id=&#34;software-architecture&#34;&gt;Software Architecture&lt;/h2&gt;
+
+&lt;h2 id=&#34;model-integration-pipeline&#34;&gt;Model Integration Pipeline&lt;/h2&gt;
+
+&lt;h2 id=&#34;simulation-composition-pipeline&#34;&gt;Simulation Composition Pipeline&lt;/h2&gt;
+
+&lt;p&gt;&lt;em&gt;You can always get back or discover our landing site&lt;/em&gt; &lt;strong&gt;&lt;em&gt;&lt;a href=&#34;https://labsim.github.io&#34;&gt;here&lt;/a&gt;&lt;/em&gt;&lt;/strong&gt; :)&lt;/p&gt;
 </description>
     </item>
     
@@ -90,21 +126,37 @@
 
 &lt;h2 id=&#34;under-construction&#34;&gt;Under construction&lt;/h2&gt;
 
-&lt;p&gt;&lt;strong&gt;&lt;em&gt;TODO :)&lt;/em&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;You can always get back or discover our landing site&lt;/em&gt; &lt;strong&gt;&lt;em&gt;&lt;a href=&#34;https://labsim.github.io&#34;&gt;here&lt;/a&gt;&lt;/em&gt;&lt;/strong&gt; :)&lt;/p&gt;
 </description>
     </item>
     
     <item>
-      <title>LABSIM Technical Docs</title>
+      <title>Welcome</title>
       <link>https://labsim.github.io/technical-doc/</link>
       <pubDate>Wed, 22 Feb 2017 17:00:00 +0100</pubDate>
       
       <guid>https://labsim.github.io/technical-doc/</guid>
-      <description>
+      <description>&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;&lt;/th&gt;
+&lt;th&gt;&lt;/th&gt;
+&lt;th&gt;&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
 
-&lt;h2 id=&#34;under-construction&#34;&gt;Under construction&lt;/h2&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;&lt;img src=&#34;img/logo_square_200px.png&#34; alt=&#34;logo_squared&#34; /&gt;&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
 
-&lt;p&gt;&lt;em&gt;But you can always get back or discover our landing site&lt;/em&gt; &lt;strong&gt;&lt;em&gt;&lt;a href=&#34;https://labsim.github.io&#34;&gt;here&lt;/a&gt;&lt;/em&gt;&lt;/strong&gt; :)&lt;/p&gt;
+&lt;p&gt;Please, feel free to explore our technical documentation by exploring different section.&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;Or you can always get back or discover our landing site&lt;/em&gt; &lt;strong&gt;&lt;em&gt;&lt;a href=&#34;https://labsim.github.io&#34;&gt;here&lt;/a&gt;&lt;/em&gt;&lt;/strong&gt; :)&lt;/p&gt;
 </description>
     </item>
     

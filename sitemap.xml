@@ -2,27 +2,7 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
-    <loc>https://labsim.github.io/technical-doc/introduction/</loc>
-    <lastmod>2017-02-22T17:00:00+01:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://labsim.github.io/technical-doc/software-architecture/</loc>
-    <lastmod>2017-02-22T17:00:00+01:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://labsim.github.io/technical-doc/software-topology/</loc>
-    <lastmod>2017-02-22T17:00:00+01:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://labsim.github.io/technical-doc/model-integration-pipeline/</loc>
-    <lastmod>2017-02-22T17:00:00+01:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://labsim.github.io/technical-doc/simulation-composition-pipeline/</loc>
+    <loc>https://labsim.github.io/technical-doc/simulation-software-ecosystem/</loc>
     <lastmod>2017-02-22T17:00:00+01:00</lastmod>
   </url>
   
@@ -37,19 +17,7 @@
   </url>
   
   <url>
-    <loc>https://labsim.github.io/technical-doc/introduction/</loc>
-    <lastmod>2017-02-22T17:00:00+01:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
     <loc>https://labsim.github.io/technical-doc/</loc>
-    <lastmod>2017-02-22T17:00:00+01:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://labsim.github.io/technical-doc/model-integration-pipeline/</loc>
     <lastmod>2017-02-22T17:00:00+01:00</lastmod>
     <priority>0</priority>
   </url>
@@ -61,19 +29,7 @@
   </url>
   
   <url>
-    <loc>https://labsim.github.io/technical-doc/simulation-composition-pipeline/</loc>
-    <lastmod>2017-02-22T17:00:00+01:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://labsim.github.io/technical-doc/software-architecture/</loc>
-    <lastmod>2017-02-22T17:00:00+01:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://labsim.github.io/technical-doc/software-topology/</loc>
+    <loc>https://labsim.github.io/technical-doc/simulation-software-ecosystem/</loc>
     <lastmod>2017-02-22T17:00:00+01:00</lastmod>
     <priority>0</priority>
   </url>

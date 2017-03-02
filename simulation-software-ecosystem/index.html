@@ -1,0 +1,478 @@
+<!DOCTYPE html>
+  
+  
+  
+  
+   <html class="no-js"> 
+
+  <head lang="en-us">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,user-scalable=no,initial-scale=1,maximum-scale=1">
+    <meta http-equiv="X-UA-Compatible" content="IE=10" />
+    <title>The LABSIM Simulation Software Ecosystem - LABSIM Documentation</title>
+    <meta name="generator" content="Hugo 0.18.1" />
+
+    
+    <meta name="description" content="A technical documentatuion about the LABSIM simulation software ecosystem.">
+    
+    <link rel="canonical" href="https://labsim.github.io/technical-doc/simulation-software-ecosystem/">
+    
+    <meta name="author" content="LABSIM">
+    
+
+    <meta property="og:url" content="https://labsim.github.io/technical-doc/simulation-software-ecosystem/">
+    <meta property="og:title" content="LABSIM Documentation">
+    <meta property="og:image" content="https://labsim.github.io/technical-doc/img/logo.png">
+    <meta name="apple-mobile-web-app-title" content="LABSIM Documentation">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+
+    <link rel="shortcut icon" type="image/x-icon" href="https://labsim.github.io/technical-doc/img/favicon.ico">
+    <link rel="icon" type="image/x-icon" href="https://labsim.github.io/technical-doc/img/favicon.ico">
+
+    <style>
+      @font-face {
+        font-family: 'Icon';
+        src: url('https://labsim.github.io/technical-doc/fonts/icon.eot');
+        src: url('https://labsim.github.io/technical-doc/fonts/icon.eot')
+               format('embedded-opentype'),
+             url('https://labsim.github.io/technical-doc/fonts/icon.woff')
+               format('woff'),
+             url('https://labsim.github.io/technical-doc/fonts/icon.ttf')
+               format('truetype'),
+             url('https://labsim.github.io/technical-doc/fonts/icon.svg')
+               format('svg');
+        font-weight: normal;
+        font-style: normal;
+      }
+    </style>
+
+    <link rel="stylesheet" href="https://labsim.github.io/technical-doc/stylesheets/application.css">
+    <link rel="stylesheet" href="https://labsim.github.io/technical-doc/stylesheets/temporary.css">
+    <link rel="stylesheet" href="https://labsim.github.io/technical-doc/stylesheets/palettes.css">
+    <link rel="stylesheet" href="https://labsim.github.io/technical-doc/Googlecode">
+
+    
+    
+    
+    <link rel="stylesheet" href="//fonts.googleapis.com/css?family=Roboto:400,700|Roboto&#43;Mono">
+    <style>
+      body, input {
+        font-family: 'Roboto', Helvetica, Arial, sans-serif;
+      }
+      pre, code {
+        font-family: 'Roboto Mono', 'Courier New', 'Courier', monospace;
+      }
+    </style>
+
+    
+    <script src="https://labsim.github.io/technical-doc/javascripts/modernizr.js"></script>
+
+    
+
+  </head>
+  <body class="palette-primary-blue-grey palette-accent-amber">
+
+
+
+
+<div class="backdrop">
+	<div class="backdrop-paper"></div>
+</div>
+
+<input class="toggle" type="checkbox" id="toggle-drawer">
+<input class="toggle" type="checkbox" id="toggle-search">
+<label class="toggle-button overlay" for="toggle-drawer"></label>
+
+<header class="header">
+	<nav aria-label="Header">
+  <div class="bar default">
+    <div class="button button-menu" role="button" aria-label="Menu">
+      <label class="toggle-button icon icon-menu" for="toggle-drawer">
+        <span></span>
+      </label>
+    </div>
+    <div class="stretch">
+      <div class="title">
+        The LABSIM Simulation Software Ecosystem
+      </div>
+    </div>
+
+    
+
+    
+    <div class="button button-github" role="button" aria-label="GitHub">
+      <a href="https://github.com/labsim" title="@labsim on GitHub" target="_blank" class="toggle-button icon icon-github"></a>
+    </div>
+    
+    
+        
+  </div>
+  <div class="bar search">
+    <div class="button button-close" role="button" aria-label="Close">
+      <label class="toggle-button icon icon-back" for="toggle-search"></label>
+    </div>
+    <div class="stretch">
+      <div class="field">
+        <input class="query" type="text" placeholder="Search" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck>
+      </div>
+    </div>
+    <div class="button button-reset" role="button" aria-label="Search">
+      <button class="toggle-button icon icon-close" id="reset-search"></button>
+    </div>
+  </div>
+</nav>
+</header>
+
+<main class="main">
+	<div class="drawer">
+		<nav aria-label="Navigation">
+  <a href="https://labsim.github.io/technical-doc/" class="project">
+    <div class="banner">
+      
+        <div class="logo">
+          <img src="https://labsim.github.io/technical-doc/img/logo.png">
+        </div>
+      
+      <div class="name">
+        <strong>LABSIM Documentation <span class="version">v0.1a</span></strong>
+        
+      </div>
+    </div>
+  </a>
+
+  <div class="scrollable">
+    <div class="wrapper">
+      
+
+      <div class="toc">
+        
+        <ul>
+          
+
+
+
+
+<li>
+  
+    
+
+
+
+<a  title="LABSIM" href="https://labsim.github.io/technical-doc/">
+	
+	LABSIM
+</a>
+
+
+
+  
+</li>
+
+
+
+<li>
+  
+    
+
+
+
+<a class="current" title="Simulation software ecosytsem" href="https://labsim.github.io/technical-doc/simulation-software-ecosystem/">
+	
+	Simulation software ecosytsem
+</a>
+
+
+<ul id="scrollspy">
+</ul>
+
+
+  
+</li>
+
+
+
+<li>
+  
+    
+
+
+
+<a  title="Roadmap" href="https://labsim.github.io/technical-doc/roadmap/">
+	
+	Roadmap
+</a>
+
+
+
+  
+</li>
+
+
+
+<li>
+  
+    
+
+
+
+<a  title="Website" href="https://labsim.github.io/">
+	
+	Website
+</a>
+
+
+
+  
+</li>
+
+
+        </ul>
+        
+
+        
+        <hr>
+        <span class="section">The author</span>
+        
+        <ul>
+          
+
+          
+          <li>
+            <a href="https://github.com/labsim" target="_blank" title="@labsim on GitHub">
+              @labsim on GitHub
+            </a>
+          </li>
+          
+
+          
+          <li>
+            <a href="mailto:labsim.onera@gmail.com" title="Email of labsim.onera@gmail.com">
+              Contact via email
+            </a>
+          </li>
+          
+        </ul>
+        
+      </div>
+    </div>
+  </div>
+</nav>
+
+	</div>
+
+	<article class="article">
+		<div class="wrapper">
+			<h1>The LABSIM Simulation Software Ecosystem </h1>
+
+			
+
+<h2 id="scientific-fields">Scientific fields</h2>
+
+<p><br></p>
+
+<p>The LABSIM simulatiom software ecosystem mainly cover 2 Applied Computer Science sub-fields :</p>
+
+<ul>
+<li><p>Distributed Systems.</p></li>
+
+<li><p>Software Engineering.</p></li>
+</ul>
+
+<p>And a much more transverse one :</p>
+
+<ul>
+<li><strong>VR</strong> (Virtual-Reality) and it&rsquo;s extension <strong>AR</strong> (Augmented-Reality) &amp; <strong>MR</strong> (Mixed-Reality).</li>
+</ul>
+
+<p><br></p>
+
+<hr />
+
+<h2 id="guidelines">Guidelines</h2>
+
+<p><br></p>
+
+<p>As a rule of thumb, we stated 5 guidelines since early conception stage of the LABSIM simulation software ecosystem. And these rules are not something we get out of nowhere, they are not the result of a hype brainstorming that we could have held once in a really secret HQ with superstar dev &amp; amazing buisnessman.</p>
+
+<p>Well&hellip; <strong><em>Nope</em></strong>.</p>
+
+<p>They are what researcher <em>care about</em> when they have deal with <em>real-time piloted simulation studies</em>. They simply are the &ldquo;polished&rdquo; needs of our rearcher. As simple as it sounds. At least, we <em>hope</em> it is :)</p>
+
+<p><br></p>
+
+<h3 id="1-human-centered">1. Human-centered</h3>
+
+<p>Once again, <em>real-time piloted simulation</em>.</p>
+
+<p>And by piloted, we mean that our subject of interest is mainly a human beeing operator and our evaluation criteria could be : simulation fidelity, acceptability, ergomomy, piloting performance, neuroergonomy, agency, sense of control, multi-agent collaboration&hellip; So, we naturally design our ecosystem to match some human-oriented design theory for real-time simulation, as said, the <strong>VR</strong>.</p>
+
+<p>Our main source of inspiration came from these two sketches.</p>
+
+<table>
+<thead>
+<tr>
+<th align="center"></th>
+</tr>
+</thead>
+
+<tbody>
+<tr>
+<td align="center"><img src="https://labsim.github.io/technical-doc/img/sketch/perception-cognition-action-loop.png" alt="sketch_loop_VR" /></td>
+</tr>
+
+<tr>
+<td align="center"><em>Perception, cognition, action loop</em></td>
+</tr>
+</tbody>
+</table>
+
+<table>
+<thead>
+<tr>
+<th align="center"></th>
+</tr>
+</thead>
+
+<tbody>
+<tr>
+<td align="center"><img src="https://labsim.github.io/technical-doc/img/sketch/techno-centric-approch-VR.png" alt="sketch_tech_VR" /></td>
+</tr>
+
+<tr>
+<td align="center"><em>Technocentric reference scheme in VR</em></td>
+</tr>
+</tbody>
+</table>
+
+<h3 id="2-performance-focused">2. Performance focused</h3>
+
+<h3 id="3-modular">3. Modular</h3>
+
+<h3 id="4-multi-disciplinar">4. Multi-disciplinar</h3>
+
+<h3 id="5-code-less">5. Code-less</h3>
+
+<h2 id="software-topology">Software Topology</h2>
+
+<h2 id="software-architecture">Software Architecture</h2>
+
+<h2 id="model-integration-pipeline">Model Integration Pipeline</h2>
+
+<h2 id="simulation-composition-pipeline">Simulation Composition Pipeline</h2>
+
+<p><em>You can always get back or discover our landing site</em> <strong><em><a href="https://labsim.github.io">here</a></em></strong> :)</p>
+
+
+			<aside class="copyright" role="note">
+				
+				&copy; 2017 Released under the MIT license &ndash;
+				
+				Documentation built with
+				<a href="https://www.gohugo.io" target="_blank">Hugo</a>
+				using the
+				<a href="http://github.com/digitalcraftsman/hugo-material-docs" target="_blank">Material</a> theme.
+			</aside>
+
+			<footer class="footer">
+				
+
+<nav class="pagination" aria-label="Footer">
+  <div class="previous">
+  
+  </div>
+
+  <div class="next">
+  
+      <a href="https://labsim.github.io/technical-doc/roadmap/" title="Roadmap">
+        <span class="direction">
+          Next
+        </span>
+        <div class="page">
+          <div class="stretch">
+            <div class="title">
+              Roadmap
+            </div>
+          </div>
+          <div class="button button-next" role="button" aria-label="Next">
+            <i class="icon icon-forward"></i>
+          </div>
+        </div>
+      </a>
+  
+  </div>
+</nav>
+
+
+
+
+
+			</footer>
+		</div>
+	</article>
+
+	<div class="results" role="status" aria-live="polite">
+		<div class="scrollable">
+			<div class="wrapper">
+				<div class="meta"></div>
+				<div class="list"></div>
+			</div>
+		</div>
+	</div>
+</main>
+
+    <script>
+    
+      var base_url = '';
+      var repo_id  = '';
+    
+    </script>
+
+    <script src="https://labsim.github.io/technical-doc/javascripts/application.js"></script>
+    
+
+    <script>
+      /* Add headers to scrollspy */
+      var headers   = document.getElementsByTagName("h2");
+      var scrollspy = document.getElementById('scrollspy');
+
+      if(scrollspy) {
+        if(headers.length > 0) {
+          for(var i = 0; i < headers.length; i++) {
+            var li = document.createElement("li");
+            li.setAttribute("class", "anchor");
+
+            var a  = document.createElement("a");
+            a.setAttribute("href", "#" + headers[i].id);
+            a.setAttribute("title", headers[i].innerHTML);
+            a.innerHTML = headers[i].innerHTML;
+
+            li.appendChild(a)
+            scrollspy.appendChild(li);
+          }
+        } else {
+          scrollspy.parentElement.removeChild(scrollspy)
+        }
+
+
+        /* Add permanent link next to the headers */
+        var headers = document.querySelectorAll("h1, h2, h3, h4, h5, h6");
+
+        for(var i = 0; i < headers.length; i++) {
+            var a = document.createElement("a");
+            a.setAttribute("class", "headerlink");
+            a.setAttribute("href", "#" + headers[i].id);
+            a.setAttribute("title", "Permanent link")
+            a.innerHTML = "#";
+            headers[i].appendChild(a);
+        }
+      }
+    </script>
+
+    
+
+    <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.8.0/highlight.min.js"></script>
+    <script>hljs.initHighlightingOnLoad();</script>
+  </body>
+</html>
+
