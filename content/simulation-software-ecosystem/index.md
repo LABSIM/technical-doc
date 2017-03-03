@@ -42,39 +42,39 @@ Given these initials conditions :
 
 * [...] **fast & early conception** [...] :
 
-  1. obviously, this lead us to system prototyping.
+  * obviously, this lead us to system prototyping.
 
-  2. by the way, time is money, so if you want something fast it has to be cheap => simulation.
+  * by the way, time is money, so if you want something fast it has to be cheap => simulation.
 
 * [...] **fast & early evaluation** [...] :
 
-  1. to evaluate something, we need to be representative/immersive enough.
+  * to evaluate something, we need to be representative/immersive enough.
 
-  2. it also mean that we will probably have to handle wide range of heterogenous data acquisition sensor.
+  * it also mean that we will probably have to handle wide range of heterogenous data acquisition sensor.
 
-  3. and because we are scientist, we will have to provide a data warrantly => consistency.
+  * and because we are scientist, we will have to provide a data warrantly => consistency.
 
 * [...] **cycle** [...] :
 
- 1. reliability & repeatability.
+  * reliability & repeatability.
 
 * [...] **innovative concept** [...] :
 
-  1. innovative concept lead to domain specific expert.
+  * innovative concept lead to domain specific expert.
 
-  2. we do computer sciences so we should leaverage this aspect from them => focus on key competencies *(reminder: initials conditions)*
+  * we do computer sciences so we should leaverage this aspect from them => focus on key competencies *(reminder: initials conditions)*
 
-  3. innovation is a blend, a fusion of various scientific domain.
+  * innovation is a blend, a fusion of various scientific domain.
 
 * [...] ***in situ*** [...] :
 
-  1. human **is in the loop** => human centered design.
+  * human **is in the loop** => human centered design.
 
-  2. human don't lag so we should focus on performance with near real-time recquirements => soft real-time ~100Hz
+  * human don't lag so we should focus on performance with near real-time recquirements => soft real-time ~100Hz
 
-  3. human centered + computer science => Virtual Reality principles !
+  * human centered + computer science => Virtual Reality principles !
 
-  4. lastly, because we are an in-house lab from the [**ONERA**](http://www.onera.fr/), by *human* we mean *pilot, UAV/ATC operator, ...*   
+  * lastly, because we are an in-house lab from the [**ONERA**](http://www.onera.fr/), by *human* we mean *pilot, UAV/ATC operator, ...*   
 
 <br>
 
@@ -132,7 +132,7 @@ For us, perfomance is not just a fancy word. It's our credibility.
 
 Leave the computer sciences complexity to us and provide you :
 
-* SAAS oriented, abstracting the hardware integration development problematics.
+* SAAS (**S**imulation **A**s **A** **S**ervice), abstracting the hardware integration development problematics.
 
 | |
 | :---: |
@@ -146,9 +146,9 @@ Leave the computer sciences complexity to us and provide you :
 | *Yep, i know. pretty simple. that's the point :)* |
 
 
-* performant WYSIWYG tools.
+* performant WYSIWYG (**W**hat **Y**ou **S**ee **I**s **W**hat **Y**ou **G**et) tools to setup a simulation.
 
-* for the guru, a DIY pipeline shorcut through a fully XML based environment.
+* for the guru, a DIY (**D**o **I**t **Y**ourself) pipeline shorcut through a fully XML based environment.
 
 <br>
 
