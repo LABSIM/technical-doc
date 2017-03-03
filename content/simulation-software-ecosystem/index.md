@@ -1,7 +1,7 @@
 ---
 date: 2017-02-22T17:00:00+01:00
 title: The LABSIM Simulation Software Ecosystem
-weight: 10
+weight: 20
 ---
 
 ## Scientific fields 
@@ -26,7 +26,7 @@ And a much more transverse one :
 
 <br>
 
-Every answer is the consequence of a questionning, even the most trivial one. There is no *divine* answer because we do science ! That said, in our case, the LABSIM was created to anwser the following problematic :
+Every answer is the consequence of a questionning, even the most trivial one. That said, for our case, the LABSIM was created to anwser the following problematic :
 
 > **How to allow fast & early conception/evaluation cycle of innovative concept** ***in situ*** **?**
 
@@ -42,9 +42,9 @@ Given these initials conditions :
 
 * [...] **fast & early conception** [...] :
 
-  * obviously, this lead us to system prototyping.
+  * obviously, this lead us to rapid system prototyping.
 
-  * by the way, time is money, so if you want something fast it has to be cheap => simulation.
+  * by the way, time is money, so if you want something to be setup quickly it has to be a cheap or relatively afordable solution => simulation.
 
 * [...] **fast & early evaluation** [...] :
 
