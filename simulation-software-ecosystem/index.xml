@@ -172,11 +172,111 @@
 
 &lt;h3 id=&#34;2-performance-focused&#34;&gt;2. Performance focused&lt;/h3&gt;
 
-&lt;h3 id=&#34;3-modular&#34;&gt;3. Modular&lt;/h3&gt;
+&lt;p&gt;Why performance matters ? Because.&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;When studying the effect of various latency on the human sense of control over an automated system (agency), &lt;em&gt;performance is critical.&lt;/em&gt;&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;When prototyping a representative fight dynamic mode requiring regular continuous time clock and tight time resolution, &lt;em&gt;performance is critical.&lt;/em&gt;&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;When exploring the optimality of a movement produced by the human motricity system during a specific piloting task, &lt;em&gt;performance is critical.&lt;/em&gt;&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;When dealing with human in a simulated virtual environment, &lt;em&gt;performance is critical&lt;/em&gt;.&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;And more [..]&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;For us, perfomance is not just a fancy word. It&amp;rsquo;s our credibility.&lt;/p&gt;
+
+&lt;p&gt;&lt;br&gt;&lt;/p&gt;
+
+&lt;h3 id=&#34;3-code-less&#34;&gt;3. Code-less&lt;/h3&gt;
+
+&lt;p&gt;Leave the computer sciences complexity to us and provide you :&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;SAAS oriented, abstracting the hardware integration development problematics.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th align=&#34;center&#34;&gt;&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td align=&#34;center&#34;&gt;&lt;img src=&#34;https://labsim.github.io/technical-doc/img/sketch/hw_sim_whitebox.png&#34; alt=&#34;sketch_HW&#34; /&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;ul&gt;
+&lt;li&gt;generic model API, abstracting the software development problematics.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th align=&#34;center&#34;&gt;&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td align=&#34;center&#34;&gt;&lt;img src=&#34;https://labsim.github.io/technical-doc/img/sketch/sw_simple_api.png&#34; alt=&#34;sketch_API&#34; /&gt;&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td align=&#34;center&#34;&gt;&lt;em&gt;Yep, i know. pretty simple. that&amp;rsquo;s the point :)&lt;/em&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;performant WYSIWYG tools.&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;for the guru, a DIY pipeline shorcut through a fully XML based environment.&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;br&gt;&lt;/p&gt;
 
 &lt;h3 id=&#34;4-multi-disciplinar&#34;&gt;4. Multi-disciplinar&lt;/h3&gt;
 
-&lt;h3 id=&#34;5-code-less&#34;&gt;5. Code-less&lt;/h3&gt;
+&lt;p&gt;Innovate, mix, blend&amp;hellip;&lt;/p&gt;
+
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th align=&#34;center&#34;&gt;&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td align=&#34;center&#34;&gt;&lt;img src=&#34;https://labsim.github.io/technical-doc/img/sketch/multidisciplinar_sim_composition_5.png&#34; alt=&#34;sketch_multidisciplinar&#34; /&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;h3 id=&#34;5-modular&#34;&gt;5. Modular&lt;/h3&gt;
+
+&lt;p&gt;Simulation-to-simulaton modularity, fastening iteration.&lt;/p&gt;
+
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th align=&#34;center&#34;&gt;&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td align=&#34;center&#34;&gt;&lt;img src=&#34;https://labsim.github.io/technical-doc/img/sketch/sim_to_sim_arch_composition_4.png&#34; alt=&#34;sketch_sim_to_sim&#34; /&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
 
 &lt;h2 id=&#34;software-topology&#34;&gt;Software Topology&lt;/h2&gt;
 
