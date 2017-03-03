@@ -11,6 +11,36 @@
     <atom:link href="https://labsim.github.io/technical-doc/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
+      <title>Welcome</title>
+      <link>https://labsim.github.io/technical-doc/</link>
+      <pubDate>Wed, 22 Feb 2017 17:00:00 +0100</pubDate>
+      
+      <guid>https://labsim.github.io/technical-doc/</guid>
+      <description>&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;&lt;/th&gt;
+&lt;th&gt;&lt;/th&gt;
+&lt;th&gt;&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;&lt;img src=&#34;img/logo_square_200px.png&#34; alt=&#34;logo_squared&#34; /&gt;&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;p&gt;Please, feel free to explore our technical documentation by exploring different section.&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;Or you can always get back or discover our landing site&lt;/em&gt; &lt;strong&gt;&lt;em&gt;&lt;a href=&#34;https://labsim.github.io&#34;&gt;here&lt;/a&gt;&lt;/em&gt;&lt;/strong&gt; :)&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
       <title>The LABSIM Simulation Software Ecosystem</title>
       <link>https://labsim.github.io/technical-doc/simulation-software-ecosystem/</link>
       <pubDate>Wed, 22 Feb 2017 17:00:00 +0100</pubDate>
@@ -44,7 +74,7 @@
 
 &lt;p&gt;&lt;br&gt;&lt;/p&gt;
 
-&lt;p&gt;Every answer is the consequence of a questionning, even the most trivial one. There is no &lt;em&gt;divine&lt;/em&gt; answer because we do science ! That said, in our case, the LABSIM was created to anwser the following problematic :&lt;/p&gt;
+&lt;p&gt;Every answer is the consequence of a questionning, even the most trivial one. That said, for our case, the LABSIM was created to anwser the following problematic :&lt;/p&gt;
 
 &lt;blockquote&gt;
 &lt;p&gt;&lt;strong&gt;How to allow fast &amp;amp; early conception/evaluation cycle of innovative concept&lt;/strong&gt; &lt;strong&gt;&lt;em&gt;in situ&lt;/em&gt;&lt;/strong&gt; &lt;strong&gt;?&lt;/strong&gt;&lt;/p&gt;
@@ -66,9 +96,9 @@
 &lt;li&gt;&lt;p&gt;[&amp;hellip;] &lt;strong&gt;fast &amp;amp; early conception&lt;/strong&gt; [&amp;hellip;] :&lt;/p&gt;
 
 &lt;ul&gt;
-&lt;li&gt;&lt;p&gt;obviously, this lead us to system prototyping.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;obviously, this lead us to rapid system prototyping.&lt;/p&gt;&lt;/li&gt;
 
-&lt;li&gt;&lt;p&gt;by the way, time is money, so if you want something fast it has to be cheap =&amp;gt; simulation.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;by the way, time is money, so if you want something to be setup quickly it has to be a cheap or relatively afordable solution =&amp;gt; simulation.&lt;/p&gt;&lt;/li&gt;
 &lt;/ul&gt;&lt;/li&gt;
 
 &lt;li&gt;&lt;p&gt;[&amp;hellip;] &lt;strong&gt;fast &amp;amp; early evaluation&lt;/strong&gt; [&amp;hellip;] :&lt;/p&gt;
@@ -547,36 +577,6 @@
 &lt;h2 id=&#34;under-construction&#34;&gt;Under construction&lt;/h2&gt;
 
 &lt;p&gt;&lt;em&gt;You can always get back or discover our landing site&lt;/em&gt; &lt;strong&gt;&lt;em&gt;&lt;a href=&#34;https://labsim.github.io&#34;&gt;here&lt;/a&gt;&lt;/em&gt;&lt;/strong&gt; :)&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Welcome</title>
-      <link>https://labsim.github.io/technical-doc/</link>
-      <pubDate>Wed, 22 Feb 2017 17:00:00 +0100</pubDate>
-      
-      <guid>https://labsim.github.io/technical-doc/</guid>
-      <description>&lt;table&gt;
-&lt;thead&gt;
-&lt;tr&gt;
-&lt;th&gt;&lt;/th&gt;
-&lt;th&gt;&lt;/th&gt;
-&lt;th&gt;&lt;/th&gt;
-&lt;/tr&gt;
-&lt;/thead&gt;
-
-&lt;tbody&gt;
-&lt;tr&gt;
-&lt;td&gt;&lt;/td&gt;
-&lt;td&gt;&lt;img src=&#34;img/logo_square_200px.png&#34; alt=&#34;logo_squared&#34; /&gt;&lt;/td&gt;
-&lt;td&gt;&lt;/td&gt;
-&lt;/tr&gt;
-&lt;/tbody&gt;
-&lt;/table&gt;
-
-&lt;p&gt;Please, feel free to explore our technical documentation by exploring different section.&lt;/p&gt;
-
-&lt;p&gt;&lt;em&gt;Or you can always get back or discover our landing site&lt;/em&gt; &lt;strong&gt;&lt;em&gt;&lt;a href=&#34;https://labsim.github.io&#34;&gt;here&lt;/a&gt;&lt;/em&gt;&lt;/strong&gt; :)&lt;/p&gt;
 </description>
     </item>
     
