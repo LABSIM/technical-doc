@@ -33,7 +33,7 @@
 &lt;p&gt;And a much more transverse one :&lt;/p&gt;
 
 &lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;VR&lt;/strong&gt; (Virtual-Reality) and it&amp;rsquo;s extension &lt;strong&gt;AR&lt;/strong&gt; (Augmented-Reality) &amp;amp; &lt;strong&gt;MR&lt;/strong&gt; (Mixed-Reality).&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;VR&lt;/strong&gt; (&lt;strong&gt;V&lt;/strong&gt;irtual-&lt;strong&gt;R&lt;/strong&gt;eality) and it&amp;rsquo;s extension &lt;strong&gt;AR&lt;/strong&gt; (&lt;strong&gt;A&lt;/strong&gt;ugmented-&lt;strong&gt;R&lt;/strong&gt;eality) &amp;amp; &lt;strong&gt;MR&lt;/strong&gt; (&lt;strong&gt;M&lt;/strong&gt;ixed-&lt;strong&gt;R&lt;/strong&gt;eality).&lt;/li&gt;
 &lt;/ul&gt;
 
 &lt;p&gt;&lt;br&gt;&lt;/p&gt;
@@ -195,7 +195,7 @@
 &lt;p&gt;Leave the computer sciences complexity to us and provide you :&lt;/p&gt;
 
 &lt;ul&gt;
-&lt;li&gt;SAAS (&lt;strong&gt;S&lt;/strong&gt;imulation &lt;strong&gt;A&lt;/strong&gt;s &lt;strong&gt;A&lt;/strong&gt; &lt;strong&gt;S&lt;/strong&gt;ervice), abstracting the hardware integration development problematics.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;SAAS&lt;/strong&gt; (&lt;strong&gt;S&lt;/strong&gt;imulation &lt;strong&gt;A&lt;/strong&gt;s &lt;strong&gt;A&lt;/strong&gt; &lt;strong&gt;S&lt;/strong&gt;ervice), abstracting the hardware integration development problematics.&lt;/li&gt;
 &lt;/ul&gt;
 
 &lt;table&gt;
@@ -213,7 +213,7 @@
 &lt;/table&gt;
 
 &lt;ul&gt;
-&lt;li&gt;generic model API, abstracting the software development problematics.&lt;/li&gt;
+&lt;li&gt;generic model &lt;strong&gt;API&lt;/strong&gt; (&lt;strong&gt;A&lt;/strong&gt;plication &lt;strong&gt;P&lt;/strong&gt;rogramming &lt;strong&gt;I&lt;/strong&gt;nterface), abstracting the software development problematics.&lt;/li&gt;
 &lt;/ul&gt;
 
 &lt;table&gt;
@@ -235,9 +235,9 @@
 &lt;/table&gt;
 
 &lt;ul&gt;
-&lt;li&gt;&lt;p&gt;performant WYSIWYG (&lt;strong&gt;W&lt;/strong&gt;hat &lt;strong&gt;Y&lt;/strong&gt;ou &lt;strong&gt;S&lt;/strong&gt;ee &lt;strong&gt;I&lt;/strong&gt;s &lt;strong&gt;W&lt;/strong&gt;hat &lt;strong&gt;Y&lt;/strong&gt;ou &lt;strong&gt;G&lt;/strong&gt;et) tools to setup a simulation.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;performant &lt;strong&gt;WYSIWYG&lt;/strong&gt; (&lt;strong&gt;W&lt;/strong&gt;hat &lt;strong&gt;Y&lt;/strong&gt;ou &lt;strong&gt;S&lt;/strong&gt;ee &lt;strong&gt;I&lt;/strong&gt;s &lt;strong&gt;W&lt;/strong&gt;hat &lt;strong&gt;Y&lt;/strong&gt;ou &lt;strong&gt;G&lt;/strong&gt;et) tools to setup a simulation.&lt;/p&gt;&lt;/li&gt;
 
-&lt;li&gt;&lt;p&gt;for the guru, a DIY (&lt;strong&gt;D&lt;/strong&gt;o &lt;strong&gt;I&lt;/strong&gt;t &lt;strong&gt;Y&lt;/strong&gt;ourself) pipeline shorcut through a fully XML based environment.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;for the guru, a &lt;strong&gt;DIY&lt;/strong&gt; (&lt;strong&gt;D&lt;/strong&gt;o &lt;strong&gt;I&lt;/strong&gt;t &lt;strong&gt;Y&lt;/strong&gt;ourself) pipeline shorcut through a fully &lt;strong&gt;XML&lt;/strong&gt; (e&lt;strong&gt;X&lt;/strong&gt;tended &lt;strong&gt;M&lt;/strong&gt;arkup &lt;strong&gt;L&lt;/strong&gt;angage) based environment.&lt;/p&gt;&lt;/li&gt;
 &lt;/ul&gt;
 
 &lt;p&gt;&lt;br&gt;&lt;/p&gt;
@@ -278,11 +278,257 @@
 &lt;/tbody&gt;
 &lt;/table&gt;
 
-&lt;h2 id=&#34;software-topology&#34;&gt;Software Topology&lt;/h2&gt;
+&lt;hr /&gt;
 
 &lt;h2 id=&#34;software-architecture&#34;&gt;Software Architecture&lt;/h2&gt;
 
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th align=&#34;center&#34;&gt;&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td align=&#34;center&#34;&gt;&lt;img src=&#34;https://labsim.github.io/technical-doc/img/sketch/data_centric_arch_0.png&#34; alt=&#34;sketch_soft_arch_0&#34; /&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th align=&#34;center&#34;&gt;&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td align=&#34;center&#34;&gt;&lt;img src=&#34;https://labsim.github.io/technical-doc/img/sketch/data_centric_arch_1.png&#34; alt=&#34;sketch_soft_arch_1&#34; /&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th align=&#34;center&#34;&gt;&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td align=&#34;center&#34;&gt;&lt;img src=&#34;https://labsim.github.io/technical-doc/img/sketch/data_centric_arch_6.png&#34; alt=&#34;sketch_soft_arch_6&#34; /&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th align=&#34;center&#34;&gt;&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td align=&#34;center&#34;&gt;&lt;img src=&#34;https://labsim.github.io/technical-doc/img/sketch/data_centric_arch_7.png&#34; alt=&#34;sketch_soft_arch_7&#34; /&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th align=&#34;center&#34;&gt;&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td align=&#34;center&#34;&gt;&lt;img src=&#34;https://labsim.github.io/technical-doc/img/sketch/data_centric_arch_8.png&#34; alt=&#34;sketch_soft_arch_8&#34; /&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th align=&#34;center&#34;&gt;&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td align=&#34;center&#34;&gt;&lt;img src=&#34;https://labsim.github.io/technical-doc/img/sketch/data_centric_arch_9.png&#34; alt=&#34;sketch_soft_arch_9&#34; /&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th align=&#34;center&#34;&gt;&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td align=&#34;center&#34;&gt;&lt;img src=&#34;https://labsim.github.io/technical-doc/img/sketch/data_centric_arch_10.png&#34; alt=&#34;sketch_soft_arch_10&#34; /&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th align=&#34;center&#34;&gt;&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td align=&#34;center&#34;&gt;&lt;img src=&#34;https://labsim.github.io/technical-doc/img/sketch/kronos_rhea_sw_arch_7.png&#34; alt=&#34;sketch_kronos_rhea_arch&#34; /&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th align=&#34;center&#34;&gt;&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td align=&#34;center&#34;&gt;&lt;img src=&#34;https://labsim.github.io/technical-doc/img/sketch/thetys_ocean_sw_arch_18.png&#34; alt=&#34;sketch_thetys_ocean_arch_18&#34; /&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th align=&#34;center&#34;&gt;&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td align=&#34;center&#34;&gt;&lt;img src=&#34;https://labsim.github.io/technical-doc/img/sketch/thetys_ocean_sw_arch_25.png&#34; alt=&#34;sketch_thetys_ocean_arch_25&#34; /&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th align=&#34;center&#34;&gt;&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td align=&#34;center&#34;&gt;&lt;img src=&#34;https://labsim.github.io/technical-doc/img/sketch/titans_global_sw_arch_3.png&#34; alt=&#34;sketch_titans_arch_3&#34; /&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th align=&#34;center&#34;&gt;&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td align=&#34;center&#34;&gt;&lt;img src=&#34;https://labsim.github.io/technical-doc/img/sketch/titans_global_sw_arch_4.png&#34; alt=&#34;sketch_titans_arch_4&#34; /&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th align=&#34;center&#34;&gt;&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td align=&#34;center&#34;&gt;&lt;img src=&#34;https://labsim.github.io/technical-doc/img/sketch/titans_global_sw_arch_5.png&#34; alt=&#34;sketch_titans_arch_5&#34; /&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th align=&#34;center&#34;&gt;&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td align=&#34;center&#34;&gt;&lt;img src=&#34;https://labsim.github.io/technical-doc/img/sketch/titans_global_sw_arch_6.png&#34; alt=&#34;sketch_titans_arch_6&#34; /&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;hr /&gt;
+
+&lt;h2 id=&#34;software-topology&#34;&gt;Software Topology&lt;/h2&gt;
+
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th align=&#34;center&#34;&gt;&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td align=&#34;center&#34;&gt;&lt;img src=&#34;https://labsim.github.io/technical-doc/img/sketch/sw_medium_topographie_4.png&#34; alt=&#34;sketch_soft_topo&#34; /&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th align=&#34;center&#34;&gt;&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td align=&#34;center&#34;&gt;&lt;img src=&#34;https://labsim.github.io/technical-doc/img/sketch/hw_medium_topographie_9.png&#34; alt=&#34;sketch_hw_topo&#34; /&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;hr /&gt;
+
 &lt;h2 id=&#34;model-integration-pipeline&#34;&gt;Model Integration Pipeline&lt;/h2&gt;
+
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th align=&#34;center&#34;&gt;&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td align=&#34;center&#34;&gt;&lt;img src=&#34;https://labsim.github.io/technical-doc/img/sketch/LABSIM_pipeline_simplified_10.png&#34; alt=&#34;sketch_pipeline&#34; /&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;hr /&gt;
 
 &lt;h2 id=&#34;simulation-composition-pipeline&#34;&gt;Simulation Composition Pipeline&lt;/h2&gt;
 
