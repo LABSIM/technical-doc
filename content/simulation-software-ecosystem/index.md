@@ -16,7 +16,7 @@ The LABSIM simulatiom software ecosystem mainly cover 2 Applied Computer Science
 
 And a much more transverse one :
 
-* **VR** (Virtual-Reality) and it's extension **AR** (Augmented-Reality) & **MR** (Mixed-Reality).
+* **VR** (**V**irtual-**R**eality) and it's extension **AR** (**A**ugmented-**R**eality) & **MR** (**M**ixed-**R**eality).
 
 <br>
 
@@ -132,13 +132,13 @@ For us, perfomance is not just a fancy word. It's our credibility.
 
 Leave the computer sciences complexity to us and provide you :
 
-* SAAS (**S**imulation **A**s **A** **S**ervice), abstracting the hardware integration development problematics.
+* **SAAS** (**S**imulation **A**s **A** **S**ervice), abstracting the hardware integration development problematics.
 
 | |
 | :---: |
 | ![sketch_HW](/img/sketch/hw_sim_whitebox.png) |
 
-* generic model API, abstracting the software development problematics.
+* generic model **API** (**A**plication **P**rogramming **I**nterface), abstracting the software development problematics.
 
 | |
 | :---: |
@@ -146,9 +146,9 @@ Leave the computer sciences complexity to us and provide you :
 | *Yep, i know. pretty simple. that's the point :)* |
 
 
-* performant WYSIWYG (**W**hat **Y**ou **S**ee **I**s **W**hat **Y**ou **G**et) tools to setup a simulation.
+* performant **WYSIWYG** (**W**hat **Y**ou **S**ee **I**s **W**hat **Y**ou **G**et) tools to setup a simulation.
 
-* for the guru, a DIY (**D**o **I**t **Y**ourself) pipeline shorcut through a fully XML based environment.
+* for the guru, a **DIY** (**D**o **I**t **Y**ourself) pipeline shorcut through a fully **XML** (e**X**tended **M**arkup **L**angage) based environment.
 
 <br>
 
@@ -168,11 +168,87 @@ Simulation-to-simulaton modularity, fastening iteration.
 | :---: |
 | ![sketch_sim_to_sim](/img/sketch/sim_to_sim_arch_composition_4.png) |
 
-## Software Topology
+---
 
 ## Software Architecture
 
+| |
+| :---: |
+| ![sketch_soft_arch_0](/img/sketch/data_centric_arch_0.png) |
+
+| |
+| :---: |
+| ![sketch_soft_arch_1](/img/sketch/data_centric_arch_1.png) |
+
+| |
+| :---: |
+| ![sketch_soft_arch_6](/img/sketch/data_centric_arch_6.png) |
+
+| |
+| :---: |
+| ![sketch_soft_arch_7](/img/sketch/data_centric_arch_7.png) |
+
+| |
+| :---: |
+| ![sketch_soft_arch_8](/img/sketch/data_centric_arch_8.png) |
+
+| |
+| :---: |
+| ![sketch_soft_arch_9](/img/sketch/data_centric_arch_9.png) |
+
+| |
+| :---: |
+| ![sketch_soft_arch_10](/img/sketch/data_centric_arch_10.png) |
+
+| |
+| :---: |
+| ![sketch_kronos_rhea_arch](/img/sketch/kronos_rhea_sw_arch_7.png) |
+
+| |
+| :---: |
+| ![sketch_thetys_ocean_arch_18](/img/sketch/thetys_ocean_sw_arch_18.png) |
+
+| |
+| :---: |
+| ![sketch_thetys_ocean_arch_25](/img/sketch/thetys_ocean_sw_arch_25.png) |
+
+| |
+| :---: |
+| ![sketch_titans_arch_3](/img/sketch/titans_global_sw_arch_3.png) |
+
+| |
+| :---: |
+| ![sketch_titans_arch_4](/img/sketch/titans_global_sw_arch_4.png) |
+
+| |
+| :---: |
+| ![sketch_titans_arch_5](/img/sketch/titans_global_sw_arch_5.png) |
+
+| |
+| :---: |
+| ![sketch_titans_arch_6](/img/sketch/titans_global_sw_arch_6.png) |
+
+---
+
+## Software Topology
+
+| |
+| :---: |
+| ![sketch_soft_topo](/img/sketch/sw_medium_topographie_4.png) |
+
+| |
+| :---: |
+| ![sketch_hw_topo](/img/sketch/hw_medium_topographie_9.png) |
+
+---
+
 ## Model Integration Pipeline
+
+| |
+| :---: |
+| ![sketch_pipeline](/img/sketch/LABSIM_pipeline_simplified_10.png) |
+
+---
 
 ## Simulation Composition Pipeline
 
