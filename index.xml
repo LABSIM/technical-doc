@@ -40,21 +40,95 @@
 
 &lt;hr /&gt;
 
+&lt;h2 id=&#34;problematic&#34;&gt;Problematic&lt;/h2&gt;
+
+&lt;p&gt;&lt;br&gt;&lt;/p&gt;
+
+&lt;p&gt;Every answer is the consequence of a questionning, even the most trivial one. There is no &lt;em&gt;divine&lt;/em&gt; answer because we do science ! That said, in our case, the LABSIM was created to anwser the following problematic :&lt;/p&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;&lt;strong&gt;How to allow fast &amp;amp; early conception/evaluation cycle of innovative concept&lt;/strong&gt; &lt;strong&gt;&lt;em&gt;in situ&lt;/em&gt;&lt;/strong&gt; &lt;strong&gt;?&lt;/strong&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;Given these initials conditions :&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;Human-system interactions &amp;amp; human factors sub-team&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;Rotorcraft system sub-team&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;br&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;Hum ?&amp;hellip;&lt;/em&gt; Let&amp;rsquo;s decompose &amp;amp; analyse each significant term of our problematic :&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;[&amp;hellip;] &lt;strong&gt;fast &amp;amp; early conception&lt;/strong&gt; [&amp;hellip;] :&lt;/p&gt;
+
+&lt;ol&gt;
+&lt;li&gt;&lt;p&gt;obviously, this lead us to system prototyping.&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;by the way, time is money, so if you want something fast it has to be cheap =&amp;gt; simulation.&lt;/p&gt;&lt;/li&gt;
+&lt;/ol&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;[&amp;hellip;] &lt;strong&gt;fast &amp;amp; early evaluation&lt;/strong&gt; [&amp;hellip;] :&lt;/p&gt;
+
+&lt;ol&gt;
+&lt;li&gt;&lt;p&gt;to evaluate something, we need to be representative/immersive enough.&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;it also mean that we will probably have to handle wide range of heterogenous data acquisition sensor.&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;and because we are scientist, we will have to provide a data warrantly =&amp;gt; consistency.&lt;/p&gt;&lt;/li&gt;
+&lt;/ol&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;[&amp;hellip;] &lt;strong&gt;cycle&lt;/strong&gt; [&amp;hellip;] :&lt;/p&gt;
+
+&lt;ol&gt;
+&lt;li&gt;reliability &amp;amp; repeatability.&lt;/li&gt;
+&lt;/ol&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;[&amp;hellip;] &lt;strong&gt;innovative concept&lt;/strong&gt; [&amp;hellip;] :&lt;/p&gt;
+
+&lt;ol&gt;
+&lt;li&gt;&lt;p&gt;innovative concept lead to domain specific expert.&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;we do computer sciences so we should leaverage this aspect from them =&amp;gt; focus on key competencies &lt;em&gt;(reminder: initials conditions)&lt;/em&gt;&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;innovation is a blend, a fusion of various scientific domain.&lt;/p&gt;&lt;/li&gt;
+&lt;/ol&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;[&amp;hellip;] &lt;strong&gt;&lt;em&gt;in situ&lt;/em&gt;&lt;/strong&gt; [&amp;hellip;] :&lt;/p&gt;
+
+&lt;ol&gt;
+&lt;li&gt;&lt;p&gt;human &lt;strong&gt;is in the loop&lt;/strong&gt; =&amp;gt; human centered design.&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;human don&amp;rsquo;t lag so we should focus on performance with near real-time recquirements =&amp;gt; soft real-time ~100Hz&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;human centered + computer science =&amp;gt; Virtual Reality principles !&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;lastly, because we are an in-house lab from the &lt;a href=&#34;http://www.onera.fr/&#34;&gt;&lt;strong&gt;ONERA&lt;/strong&gt;&lt;/a&gt;, by &lt;em&gt;human&lt;/em&gt; we mean &lt;em&gt;pilot, UAV/ATC operator, &amp;hellip;&lt;/em&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;/ol&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;br&gt;&lt;/p&gt;
+
+&lt;hr /&gt;
+
 &lt;h2 id=&#34;guidelines&#34;&gt;Guidelines&lt;/h2&gt;
 
 &lt;p&gt;&lt;br&gt;&lt;/p&gt;
 
-&lt;p&gt;As a rule of thumb, we stated 5 guidelines since early conception stage of the LABSIM simulation software ecosystem. And these rules are not something we get out of nowhere, they are not the result of a hype brainstorming that we could have held once in a really secret HQ with superstar dev &amp;amp; amazing buisnessman.&lt;/p&gt;
+&lt;p&gt;So, until now, as a result of our previous resonning and as a rule of thumb, we stated 5 guidelines since early conception stage of the LABSIM simulation software ecosystem. And these rules are not something we get out of nowhere, they are not the result of a hype brainstorming that we could have held once in a really secret HQ with superstar dev &amp;amp; amazing buisnessman.&lt;/p&gt;
 
 &lt;p&gt;Well&amp;hellip; &lt;strong&gt;&lt;em&gt;Nope&lt;/em&gt;&lt;/strong&gt;.&lt;/p&gt;
 
-&lt;p&gt;They are what researcher &lt;em&gt;care about&lt;/em&gt; when they have deal with &lt;em&gt;real-time piloted simulation studies&lt;/em&gt;. They simply are the &amp;ldquo;polished&amp;rdquo; needs of our rearcher. As simple as it sounds. At least, we &lt;em&gt;hope&lt;/em&gt; it is :)&lt;/p&gt;
+&lt;p&gt;They are what researcher &lt;em&gt;care about&lt;/em&gt; when they have deal with &lt;em&gt;real-time piloted simulation studies&lt;/em&gt;. They simply are the &amp;ldquo;polished&amp;rdquo; needs of our rearcher. &lt;em&gt;Our answer&lt;/em&gt;. As simple as it sounds. At least, we &lt;em&gt;hope&lt;/em&gt; it is :)&lt;/p&gt;
 
 &lt;p&gt;&lt;br&gt;&lt;/p&gt;
 
 &lt;h3 id=&#34;1-human-centered&#34;&gt;1. Human-centered&lt;/h3&gt;
 
-&lt;p&gt;Once again, &lt;em&gt;real-time piloted simulation&lt;/em&gt;.&lt;/p&gt;
+&lt;p&gt;Once again, &lt;em&gt;soft real-time piloted simulation&lt;/em&gt;.&lt;/p&gt;
 
 &lt;p&gt;And by piloted, we mean that our subject of interest is mainly a human beeing operator and our evaluation criteria could be : simulation fidelity, acceptability, ergomomy, piloting performance, neuroergonomy, agency, sense of control, multi-agent collaboration&amp;hellip; So, we naturally design our ecosystem to match some human-oriented design theory for real-time simulation, as said, the &lt;strong&gt;VR&lt;/strong&gt;.&lt;/p&gt;
 
