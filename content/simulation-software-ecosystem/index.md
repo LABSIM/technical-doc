@@ -112,11 +112,61 @@ Our main source of inspiration came from these two sketches.
 
 ### 2. Performance focused 
 
-### 3. Modular
+Why performance matters ? Because.
+
+* When studying the effect of various latency on the human sense of control over an automated system (agency), *performance is critical.*
+
+* When prototyping a representative fight dynamic mode requiring regular continuous time clock and tight time resolution, *performance is critical.*
+
+* When exploring the optimality of a movement produced by the human motricity system during a specific piloting task, *performance is critical.*
+
+* When dealing with human in a simulated virtual environment, *performance is critical*.
+
+* And more [..]
+
+For us, perfomance is not just a fancy word. It's our credibility.
+
+<br> 
+
+### 3. Code-less
+
+Leave the computer sciences complexity to us and provide you :
+
+* SAAS oriented, abstracting the hardware integration development problematics.
+
+| |
+| :---: |
+| ![sketch_HW](/img/sketch/hw_sim_whitebox.png) |
+
+* generic model API, abstracting the software development problematics.
+
+| |
+| :---: |
+| ![sketch_API](/img/sketch/sw_simple_api.png) |
+| *Yep, i know. pretty simple. that's the point :)* |
+
+
+* performant WYSIWYG tools.
+
+* for the guru, a DIY pipeline shorcut through a fully XML based environment.
+
+<br>
 
 ### 4. Multi-disciplinar
 
-### 5. Code-less
+Innovate, mix, blend...
+
+| |
+| :---: |
+| ![sketch_multidisciplinar](/img/sketch/multidisciplinar_sim_composition_5.png) |
+
+### 5. Modular
+
+Simulation-to-simulaton modularity, fastening iteration.
+
+| |
+| :---: |
+| ![sketch_sim_to_sim](/img/sketch/sim_to_sim_arch_composition_4.png) |
 
 ## Software Topology
 
