@@ -92,7 +92,7 @@ They are what researcher *care about* when they have deal with *real-time pilote
 
 <br>
 
-### 1. Human-centered
+#### **1. Human-centered**
 
 Once again, *soft real-time piloted simulation*. 
 
@@ -110,7 +110,7 @@ Our main source of inspiration came from these two sketches.
 | ![sketch_tech_VR](/img/sketch/techno-centric-approch-VR.png) |
 | *Technocentric reference scheme in VR* |
 
-### 2. Performance focused 
+#### **2. Performance focused** 
 
 Why performance matters ? Because.
 
@@ -128,7 +128,7 @@ For us, perfomance is not just a fancy word. It's our credibility.
 
 <br> 
 
-### 3. Code-less
+#### **3. Code-less**
 
 Leave the computer sciences complexity to us and provide you :
 
@@ -152,15 +152,15 @@ Leave the computer sciences complexity to us and provide you :
 
 <br>
 
-### 4. Multi-disciplinar
+#### **4. Multi-disciplinar**
 
-Innovate, mix, blend...
+Innovate, mix, blend... 
 
 | |
 | :---: |
 | ![sketch_multidisciplinar](/img/sketch/multidisciplinar_sim_composition_5.png) |
 
-### 5. Modular
+#### **5. Modular**
 
 Simulation-to-simulaton modularity, fastening iteration.
 
@@ -176,13 +176,64 @@ Simulation-to-simulaton modularity, fastening iteration.
 | :---: |
 | ![sketch_soft_arch_0](/img/sketch/data_centric_arch_0.png) |
 
+N-tier layered architecture is a common pattern in software development, especialy the 3-tier with : the UI (User Interface), the BLL (Business Logic Layer), the DB (Data Base), each layer's interface & the top-down workflow. It address a lot of problematic and solve many of them but... **not our**. 
+
+*Why ?* Simply because we want a modular workflow, users should be able to easily implement, integrate or modify their *Model*. Some of them lie in the UI layer & some in the BL Layer but, empirically, we now know that none of them rely in the DB Layer.
+
 | |
 | :---: |
 | ![sketch_soft_arch_1](/img/sketch/data_centric_arch_1.png) |
 
+More exactly, users fondamentally **don't want to** implement these DB *Model* but they **have to** because of their need of result. It's an environmental constraint. We noticed, as many other, that, even when doing some real-time piloted simulation for research, **the key point is _data_**.
+
+| |
+| :---: |
+| ![sketch_dds_arch](/img/sketch/dds_arch.png) |
+
+So, we place data at the core of our simulation software ecosystem, using cloud-based middleware by embrassing the [**OMG**](http://www.omg.org) (**O**bject **M**anagement **G**roup) **DDS** (**D**ata **D**istribution **S**ervice) standard. Introduced in 2004, DDS is a standard for Real-Time, Dependable and High-Performance Publish/Subscribe. DDS behaviour and semantics can be controlled via a rich set of **QoS** (**Q**uality of **S**ervice) Policies.
+
+| |
+| :---: |
+| ![sketch_dds_cloud](/img/sketch/dds_cloud.png) |
+
+DDS allow us to organize the main domain in logical partition. In our case, the LABSIM domain is composed of each facility partition. The all space is called the **DDS Global Data Space**. 
+
+| |
+| :---: |
+| ![sketch_dds_topic](/img/sketch/dds_topic.png) |
+
+In each DDS partition, there could be one or more topic. The topic is defined by :
+
+* an **IDL** (**I**nterface **D**efinition **L**anguage) file describing the data structure.
+
+* a set of DDS Topic QoS defining it's bahaviour.
+
+* a key identifing each topic instance.
+
+
+| |
+| :---: |
+| ![sketch_dds_resume](/img/sketch/dds_resume.png) |
+
+Here is the typical DDS Workflow representing the object relationnal mapping with their level of interaction with the global data space, sorted top-down from our frontend **POV** (**P**oint **O**f **V**iew) :
+
+* DataWriter **->** Topic **->** DataReader.
+
+* Publisher **->** Partition **->** Subscriber.
+
+* DomainParticipant **<->** Domain.
+
+| |
+| :---: |
+| ![sketch_dds_domain](/img/sketch/dds_domain.png) |
+
+And if you want to go with a more detailled view of the multiplicity of instances, samples timeline, streams... [*You're welcome*](http://portals.omg.org/dds/omg-dds-standard/).
+
 | |
 | :---: |
 | ![sketch_soft_arch_6](/img/sketch/data_centric_arch_6.png) |
+
+So, here we are ! This is a typical LABSIM software architecture. Let's began the description with our main component here, **data**. 
 
 | |
 | :---: |

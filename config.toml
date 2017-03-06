@@ -62,7 +62,7 @@ googleAnalytics = ""
 	weight = 20
 
 [[menu.main]]
-	name   = "Website"
+	name   = "Main Website"
 	url    = "https://labsim.github.io/"
 	weight = 30
 
