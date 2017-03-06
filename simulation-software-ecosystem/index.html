@@ -216,9 +216,9 @@
 
 
 
-<a  title="Website" href="https://labsim.github.io/">
+<a  title="Main Website" href="https://labsim.github.io/">
 	
-	Website
+	Main Website
 </a>
 
 
@@ -375,7 +375,7 @@
 
 <p><br></p>
 
-<h3 id="1-human-centered">1. Human-centered</h3>
+<h4 id="1-human-centered"><strong>1. Human-centered</strong></h4>
 
 <p>Once again, <em>soft real-time piloted simulation</em>.</p>
 
@@ -419,7 +419,7 @@
 </tbody>
 </table>
 
-<h3 id="2-performance-focused">2. Performance focused</h3>
+<h4 id="2-performance-focused"><strong>2. Performance focused</strong></h4>
 
 <p>Why performance matters ? Because.</p>
 
@@ -439,7 +439,7 @@
 
 <p><br></p>
 
-<h3 id="3-code-less">3. Code-less</h3>
+<h4 id="3-code-less"><strong>3. Code-less</strong></h4>
 
 <p>Leave the computer sciences complexity to us and provide you :</p>
 
@@ -491,7 +491,7 @@
 
 <p><br></p>
 
-<h3 id="4-multi-disciplinar">4. Multi-disciplinar</h3>
+<h4 id="4-multi-disciplinar"><strong>4. Multi-disciplinar</strong></h4>
 
 <p>Innovate, mix, blend&hellip;</p>
 
@@ -509,7 +509,7 @@
 </tbody>
 </table>
 
-<h3 id="5-modular">5. Modular</h3>
+<h4 id="5-modular"><strong>5. Modular</strong></h4>
 
 <p>Simulation-to-simulaton modularity, fastening iteration.</p>
 
@@ -545,6 +545,10 @@
 </tbody>
 </table>
 
+<p>N-tier layered architecture is a common pattern in software development, especialy the 3-tier with : the UI (User Interface), the BLL (Business Logic Layer), the DB (Data Base), each layer&rsquo;s interface &amp; the top-down workflow. It address a lot of problematic and solve many of them but&hellip; <strong>not our</strong>.</p>
+
+<p><em>Why ?</em> Simply because we want a modular workflow, users should be able to easily implement, integrate or modify their <em>Model</em>. Some of them lie in the UI layer &amp; some in the BL Layer but, empirically, we now know that none of them rely in the DB Layer.</p>
+
 <table>
 <thead>
 <tr>
@@ -559,6 +563,104 @@
 </tbody>
 </table>
 
+<p>More exactly, users fondamentally <strong>don&rsquo;t want to</strong> implement these DB <em>Model</em> but they <strong>have to</strong> because of their need of result. It&rsquo;s an environmental constraint. We noticed, as many other, that, even when doing some real-time piloted simulation for research, <strong>the key point is <em>data</em></strong>.</p>
+
+<table>
+<thead>
+<tr>
+<th align="center"></th>
+</tr>
+</thead>
+
+<tbody>
+<tr>
+<td align="center"><img src="https://labsim.github.io/technical-doc/img/sketch/dds_arch.png" alt="sketch_dds_arch" /></td>
+</tr>
+</tbody>
+</table>
+
+<p>So, we place data at the core of our simulation software ecosystem, using cloud-based middleware by embrassing the <a href="http://www.omg.org"><strong>OMG</strong></a> (<strong>O</strong>bject <strong>M</strong>anagement <strong>G</strong>roup) <strong>DDS</strong> (<strong>D</strong>ata <strong>D</strong>istribution <strong>S</strong>ervice) standard. Introduced in 2004, DDS is a standard for Real-Time, Dependable and High-Performance Publish/Subscribe. DDS behaviour and semantics can be controlled via a rich set of <strong>QoS</strong> (<strong>Q</strong>uality of <strong>S</strong>ervice) Policies.</p>
+
+<table>
+<thead>
+<tr>
+<th align="center"></th>
+</tr>
+</thead>
+
+<tbody>
+<tr>
+<td align="center"><img src="https://labsim.github.io/technical-doc/img/sketch/dds_cloud.png" alt="sketch_dds_cloud" /></td>
+</tr>
+</tbody>
+</table>
+
+<p>DDS allow us to organize the main domain in logical partition. In our case, the LABSIM domain is composed of each facility partition. The all space is called the <strong>DDS Global Data Space</strong>.</p>
+
+<table>
+<thead>
+<tr>
+<th align="center"></th>
+</tr>
+</thead>
+
+<tbody>
+<tr>
+<td align="center"><img src="https://labsim.github.io/technical-doc/img/sketch/dds_topic.png" alt="sketch_dds_topic" /></td>
+</tr>
+</tbody>
+</table>
+
+<p>In each DDS partition, there could be one or more topic. The topic is defined by :</p>
+
+<ul>
+<li><p>an <strong>IDL</strong> (<strong>I</strong>nterface <strong>D</strong>efinition <strong>L</strong>anguage) file describing the data structure.</p></li>
+
+<li><p>a set of DDS Topic QoS defining it&rsquo;s bahaviour.</p></li>
+
+<li><p>a key identifing each topic instance.</p></li>
+</ul>
+
+<table>
+<thead>
+<tr>
+<th align="center"></th>
+</tr>
+</thead>
+
+<tbody>
+<tr>
+<td align="center"><img src="https://labsim.github.io/technical-doc/img/sketch/dds_resume.png" alt="sketch_dds_resume" /></td>
+</tr>
+</tbody>
+</table>
+
+<p>Here is the typical DDS Workflow representing the object relationnal mapping with their level of interaction with the global data space, sorted top-down from our frontend <strong>POV</strong> (<strong>P</strong>oint <strong>O</strong>f <strong>V</strong>iew) :</p>
+
+<ul>
+<li><p>DataWriter <strong>-&gt;</strong> Topic <strong>-&gt;</strong> DataReader.</p></li>
+
+<li><p>Publisher <strong>-&gt;</strong> Partition <strong>-&gt;</strong> Subscriber.</p></li>
+
+<li><p>DomainParticipant <strong>&lt;-&gt;</strong> Domain.</p></li>
+</ul>
+
+<table>
+<thead>
+<tr>
+<th align="center"></th>
+</tr>
+</thead>
+
+<tbody>
+<tr>
+<td align="center"><img src="https://labsim.github.io/technical-doc/img/sketch/dds_domain.png" alt="sketch_dds_domain" /></td>
+</tr>
+</tbody>
+</table>
+
+<p>And if you want to go with a more detailled view of the multiplicity of instances, samples timeline, streams&hellip; <a href="http://portals.omg.org/dds/omg-dds-standard/"><em>You&rsquo;re welcome</em></a>.</p>
+
 <table>
 <thead>
 <tr>
@@ -572,6 +674,8 @@
 </tr>
 </tbody>
 </table>
+
+<p>So, here we are ! This is a typical LABSIM software architecture. Let&rsquo;s began the description with our main component here, <strong>data</strong>.</p>
 
 <table>
 <thead>
