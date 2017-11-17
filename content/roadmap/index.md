@@ -6,4 +6,4 @@ weight: 30
 
 ## Under construction
 
-*You can always get back or discover our landing site* ***[here](https://labsim.github.io)*** :)
+*You can always get back or discover our ***[main website](https://labsim.github.io)*** or browse our ***[software repositories](https://github.com/labsim)*** :)

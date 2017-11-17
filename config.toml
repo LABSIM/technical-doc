@@ -12,7 +12,7 @@ googleAnalytics = ""
 
 	# General information
 	author = "LABSIM"
-	description = "A technical documentatuion about the LABSIM simulation software ecosystem."
+	description = "A technical documentatuion about the LABSIM Simulation software ecosystem."
 	copyright = "Released under the MIT license"
 
 	# Repository
@@ -47,24 +47,44 @@ googleAnalytics = ""
 	email   = "labsim.onera@gmail.com"
 
 [[menu.main]]
-	name   = "LABSIM"
+	name   = "Welcome"
 	url    = "/"
-	weight = 0
+	weight = 1
 
 [[menu.main]]
-	name   = "Simulation software ecosytsem"
-	url    = "simulation-software-ecosystem/"
+	name   = "LABSIM"
+	url    = "labsim/"
 	weight = 10
+
+[[menu.main]]
+	name   = "Simulation Software Ecosystem"
+	url    = "simulation-software-ecosystem/"
+	weight = 20
 
 [[menu.main]]
 	name   = "Roadmap"
 	url    = "roadmap/"
-	weight = 20
+	weight = 30
+
+[[menu.main]]
+	name   = "Titans"
+	url    = "titans/"
+	weight = 40
+
+[[menu.main]]
+	name   = "Olympiens"
+	url    = "olympiens/"
+	weight = 50
+
+[[menu.main]]
+	name   = "Colosses"
+	url    = "colosses/"
+	weight = 60
 
 [[menu.main]]
 	name   = "Main Website"
 	url    = "https://labsim.github.io/"
-	weight = 30
+	weight = 70
 
 [blackfriday]
 	smartypants 	= true
