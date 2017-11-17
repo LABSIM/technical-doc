@@ -1,24 +1,24 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Roadmaps on LABSIM Documentation</title>
-    <link>https://labsim.github.io/technical-doc/roadmap/index.xml</link>
-    <description>Recent content in Roadmaps on LABSIM Documentation</description>
+    <title>Colosses on LABSIM Documentation</title>
+    <link>https://labsim.github.io/technical-doc/colosses/index.xml</link>
+    <description>Recent content in Colosses on LABSIM Documentation</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>Released under the MIT license</copyright>
     <lastBuildDate>Wed, 22 Feb 2017 17:00:00 +0100</lastBuildDate>
-    <atom:link href="https://labsim.github.io/technical-doc/roadmap/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://labsim.github.io/technical-doc/colosses/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
-      <title>Roadmap</title>
-      <link>https://labsim.github.io/technical-doc/roadmap/</link>
+      <title>Colosses</title>
+      <link>https://labsim.github.io/technical-doc/colosses/</link>
       <pubDate>Wed, 22 Feb 2017 17:00:00 +0100</pubDate>
       
-      <guid>https://labsim.github.io/technical-doc/roadmap/</guid>
+      <guid>https://labsim.github.io/technical-doc/colosses/</guid>
       <description>
 
-&lt;h2 id=&#34;under-construction&#34;&gt;Under construction&lt;/h2&gt;
+&lt;h2 id=&#34;under-construction&#34;&gt;&lt;em&gt;Under construction&lt;/em&gt;&lt;/h2&gt;
 
 &lt;p&gt;*You can always get back or discover our &lt;strong&gt;&lt;em&gt;&lt;a href=&#34;https://labsim.github.io&#34;&gt;main website&lt;/a&gt;&lt;/em&gt;&lt;/strong&gt; or browse our &lt;strong&gt;&lt;em&gt;&lt;a href=&#34;https://github.com/labsim&#34;&gt;software repositories&lt;/a&gt;&lt;/em&gt;&lt;/strong&gt; :)&lt;/p&gt;
 </description>

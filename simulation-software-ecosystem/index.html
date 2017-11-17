@@ -9,11 +9,11 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width,user-scalable=no,initial-scale=1,maximum-scale=1">
     <meta http-equiv="X-UA-Compatible" content="IE=10" />
-    <title>The LABSIM Simulation Software Ecosystem - LABSIM Documentation</title>
+    <title>Simulation Software Ecosystem - LABSIM Documentation</title>
     <meta name="generator" content="Hugo 0.18.1" />
 
     
-    <meta name="description" content="A technical documentatuion about the LABSIM simulation software ecosystem.">
+    <meta name="description" content="A technical documentatuion about the LABSIM Simulation software ecosystem.">
     
     <link rel="canonical" href="https://labsim.github.io/technical-doc/simulation-software-ecosystem/">
     
@@ -94,7 +94,7 @@
     </div>
     <div class="stretch">
       <div class="title">
-        The LABSIM Simulation Software Ecosystem
+        Simulation Software Ecosystem
       </div>
     </div>
 
@@ -159,7 +159,25 @@
 
 
 
-<a  title="LABSIM" href="https://labsim.github.io/technical-doc/">
+<a  title="Welcome" href="https://labsim.github.io/technical-doc/">
+	
+	Welcome
+</a>
+
+
+
+  
+</li>
+
+
+
+<li>
+  
+    
+
+
+
+<a  title="LABSIM" href="https://labsim.github.io/technical-doc/labsim/">
 	
 	LABSIM
 </a>
@@ -177,9 +195,9 @@
 
 
 
-<a class="current" title="Simulation software ecosytsem" href="https://labsim.github.io/technical-doc/simulation-software-ecosystem/">
+<a class="current" title="Simulation Software Ecosystem" href="https://labsim.github.io/technical-doc/simulation-software-ecosystem/">
 	
-	Simulation software ecosytsem
+	Simulation Software Ecosystem
 </a>
 
 
@@ -201,6 +219,60 @@
 <a  title="Roadmap" href="https://labsim.github.io/technical-doc/roadmap/">
 	
 	Roadmap
+</a>
+
+
+
+  
+</li>
+
+
+
+<li>
+  
+    
+
+
+
+<a  title="Titans" href="https://labsim.github.io/technical-doc/titans/">
+	
+	Titans
+</a>
+
+
+
+  
+</li>
+
+
+
+<li>
+  
+    
+
+
+
+<a  title="Olympiens" href="https://labsim.github.io/technical-doc/olympiens/">
+	
+	Olympiens
+</a>
+
+
+
+  
+</li>
+
+
+
+<li>
+  
+    
+
+
+
+<a  title="Colosses" href="https://labsim.github.io/technical-doc/colosses/">
+	
+	Colosses
 </a>
 
 
@@ -263,629 +335,55 @@
 
 	<article class="article">
 		<div class="wrapper">
-			<h1>The LABSIM Simulation Software Ecosystem </h1>
+			<h1>Simulation Software Ecosystem </h1>
 
 			
 
-<h2 id="scientific-fields">Scientific fields</h2>
-
-<p><br></p>
-
-<p>The LABSIM simulatiom software ecosystem mainly cover 2 Applied Computer Science sub-fields :</p>
-
-<ul>
-<li><p>Distributed Systems.</p></li>
-
-<li><p>Software Engineering.</p></li>
-</ul>
-
-<p>And a much more transverse one :</p>
-
-<ul>
-<li><strong>VR</strong> (<strong>V</strong>irtual-<strong>R</strong>eality) and it&rsquo;s extension <strong>AR</strong> (<strong>A</strong>ugmented-<strong>R</strong>eality) &amp; <strong>MR</strong> (<strong>M</strong>ixed-<strong>R</strong>eality).</li>
-</ul>
-
-<p><br></p>
-
-<hr />
-
 <h2 id="problematic">Problematic</h2>
 
-<p><br></p>
-
-<p>Every answer is the consequence of a questionning, even the most trivial one. That said, for our case, the LABSIM was created to anwser the following problematic :</p>
-
-<blockquote>
-<p><strong>How to allow fast &amp; early conception/evaluation cycle of innovative concept</strong> <strong><em>in situ</em></strong> <strong>?</strong></p>
-</blockquote>
-
-<p>Given these initials conditions :</p>
-
-<ul>
-<li><p>Human-system interactions &amp; human factors sub-team</p></li>
-
-<li><p>Rotorcraft system sub-team</p></li>
-</ul>
-
-<p><br></p>
-
-<p><em>Hum ?&hellip;</em> Let&rsquo;s decompose &amp; analyse each significant term of our problematic :</p>
-
-<ul>
-<li><p>[&hellip;] <strong>fast &amp; early conception</strong> [&hellip;] :</p>
-
-<ul>
-<li><p>obviously, this lead us to rapid system prototyping.</p></li>
-
-<li><p>by the way, time is money, so if you want something to be setup quickly it has to be a cheap or relatively afordable solution =&gt; simulation.</p></li>
-</ul></li>
-
-<li><p>[&hellip;] <strong>fast &amp; early evaluation</strong> [&hellip;] :</p>
-
-<ul>
-<li><p>to evaluate something, we need to be representative/immersive enough.</p></li>
-
-<li><p>it also mean that we will probably have to handle wide range of heterogenous data acquisition sensor.</p></li>
-
-<li><p>and because we are scientist, we will have to provide a data warrantly =&gt; consistency.</p></li>
-</ul></li>
-
-<li><p>[&hellip;] <strong>cycle</strong> [&hellip;] :</p>
-
-<ul>
-<li>reliability &amp; repeatability.</li>
-</ul></li>
-
-<li><p>[&hellip;] <strong>innovative concept</strong> [&hellip;] :</p>
-
-<ul>
-<li><p>innovative concept lead to domain specific expert.</p></li>
-
-<li><p>we do computer sciences so we should leaverage this aspect from them =&gt; focus on key competencies <em>(reminder: initials conditions)</em></p></li>
-
-<li><p>innovation is a blend, a fusion of various scientific domain.</p></li>
-</ul></li>
-
-<li><p>[&hellip;] <strong><em>in situ</em></strong> [&hellip;] :</p>
-
-<ul>
-<li><p>human <strong>is in the loop</strong> =&gt; human centered design.</p></li>
-
-<li><p>human don&rsquo;t lag so we should focus on performance with near real-time recquirements =&gt; soft real-time ~100Hz</p></li>
-
-<li><p>human centered + computer science =&gt; Virtual Reality principles !</p></li>
-
-<li><p>lastly, because we are an in-house lab from the <a href="http://www.onera.fr/"><strong>ONERA</strong></a>, by <em>human</em> we mean <em>pilot, UAV/ATC operator, &hellip;</em></p></li>
-</ul></li>
-</ul>
-
-<p><br></p>
-
-<hr />
+<script async class='speakerdeck-embed' data-id='b764af72e29d401a8bb81decabb4f5c1' data-ratio='1.33333333333333' src='//speakerdeck.com/assets/embed.js'></script>
 
 <h2 id="guidelines">Guidelines</h2>
 
-<p><br></p>
+<script async class='speakerdeck-embed' data-id='4e8126e72d853c0060001f97' data-ratio='1.33333333333333' src='//speakerdeck.com/assets/embed.js'></script>
 
-<p>So, until now, as a result of our previous resonning and as a rule of thumb, we stated 5 guidelines since early conception stage of the LABSIM simulation software ecosystem. And these rules are not something we get out of nowhere, they are not the result of a hype brainstorming that we could have held once in a really secret HQ with superstar dev &amp; amazing buisnessman.</p>
+<h2 id="high-level-architecture">High-level architecture</h2>
 
-<p>Well&hellip; <strong><em>Nope</em></strong>.</p>
+<script async class='speakerdeck-embed' data-id='4e8126e72d853c0060001f97' data-ratio='1.33333333333333' src='//speakerdeck.com/assets/embed.js'></script>
 
-<p>They are what researcher <em>care about</em> when they have deal with <em>real-time piloted simulation studies</em>. They simply are the &ldquo;polished&rdquo; needs of our rearcher. <em>Our answer</em>. As simple as it sounds. At least, we <em>hope</em> it is :)</p>
+<h2 id="low-level-architecture">Low-level architecture</h2>
 
-<p><br></p>
+<script async class='speakerdeck-embed' data-id='4e8126e72d853c0060001f97' data-ratio='1.33333333333333' src='//speakerdeck.com/assets/embed.js'></script>
 
-<h4 id="1-human-centered"><strong>1. Human-centered</strong></h4>
+<h2 id="software-topology">Software topology</h2>
 
-<p>Once again, <em>soft real-time piloted simulation</em>.</p>
+<script async class='speakerdeck-embed' data-id='498d991e9d574c24bee3c314b0b37b50' data-ratio='1.33333333333333' src='//speakerdeck.com/assets/embed.js'></script>
 
-<p>And by piloted, we mean that our subject of interest is mainly a human beeing operator and our evaluation criteria could be : simulation fidelity, acceptability, ergomomy, piloting performance, neuroergonomy, agency, sense of control, multi-agent collaboration&hellip; So, we naturally design our ecosystem to match some human-oriented design theory for real-time simulation, as said, the <strong>VR</strong>.</p>
+<h2 id="role-topology">Role topology</h2>
 
-<p>Our main source of inspiration came from these two sketches.</p>
+<script async class='speakerdeck-embed' data-id='eca048ac8d214e68a618740601cbc1cd' data-ratio='1.33333333333333' src='//speakerdeck.com/assets/embed.js'></script>
 
-<table>
-<thead>
-<tr>
-<th align="center"></th>
-</tr>
-</thead>
+<h2 id="hardware-topology">Hardware topology</h2>
 
-<tbody>
-<tr>
-<td align="center"><img src="https://labsim.github.io/technical-doc/img/sketch/perception-cognition-action-loop.png" alt="sketch_loop_VR" /></td>
-</tr>
+<script async class='speakerdeck-embed' data-id='4e8126e72d853c0060001f97' data-ratio='1.33333333333333' src='//speakerdeck.com/assets/embed.js'></script>
 
-<tr>
-<td align="center"><em>Perception, cognition, action loop</em></td>
-</tr>
-</tbody>
-</table>
+<h2 id="scientific-topology">Scientific topology</h2>
 
-<table>
-<thead>
-<tr>
-<th align="center"></th>
-</tr>
-</thead>
+<script async class='speakerdeck-embed' data-id='85b19cfb9ee44528aae5f9c4803cc4bf' data-ratio='1.33333333333333' src='//speakerdeck.com/assets/embed.js'></script>
 
-<tbody>
-<tr>
-<td align="center"><img src="https://labsim.github.io/technical-doc/img/sketch/techno-centric-approch-VR.png" alt="sketch_tech_VR" /></td>
-</tr>
+<h2 id="pipelines-for-dummies">Pipelines for dummies</h2>
 
-<tr>
-<td align="center"><em>Technocentric reference scheme in VR</em></td>
-</tr>
-</tbody>
-</table>
+<script async class='speakerdeck-embed' data-id='4e8126e72d853c0060001f97' data-ratio='1.33333333333333' src='//speakerdeck.com/assets/embed.js'></script>
 
-<h4 id="2-performance-focused"><strong>2. Performance focused</strong></h4>
+<h2 id="model-integration-pipeline">Model integration pipeline</h2>
 
-<p>Why performance matters ? Because.</p>
+<script async class='speakerdeck-embed' data-id='4e8126e72d853c0060001f97' data-ratio='1.33333333333333' src='//speakerdeck.com/assets/embed.js'></script>
 
-<ul>
-<li><p>When studying the effect of various latency on the human sense of control over an automated system (agency), <em>performance is critical.</em></p></li>
+<h2 id="simulation-composition-pipeline">Simulation composition pipeline</h2>
 
-<li><p>When prototyping a representative fight dynamic mode requiring regular continuous time clock and tight time resolution, <em>performance is critical.</em></p></li>
+<script async class='speakerdeck-embed' data-id='220ac0324c7540608f1ef14ee97119d0' data-ratio='1.33333333333333' src='//speakerdeck.com/assets/embed.js'></script>
 
-<li><p>When exploring the optimality of a movement produced by the human motricity system during a specific piloting task, <em>performance is critical.</em></p></li>
-
-<li><p>When dealing with human in a simulated virtual environment, <em>performance is critical</em>.</p></li>
-
-<li><p>And more [..]</p></li>
-</ul>
-
-<p>For us, perfomance is not just a fancy word. It&rsquo;s our credibility.</p>
-
-<p><br></p>
-
-<h4 id="3-code-less"><strong>3. Code-less</strong></h4>
-
-<p>Leave the computer sciences complexity to us and provide you :</p>
-
-<ul>
-<li><strong>SAAS</strong> (<strong>S</strong>imulation <strong>A</strong>s <strong>A</strong> <strong>S</strong>ervice), abstracting the hardware integration development problematics.</li>
-</ul>
-
-<table>
-<thead>
-<tr>
-<th align="center"></th>
-</tr>
-</thead>
-
-<tbody>
-<tr>
-<td align="center"><img src="https://labsim.github.io/technical-doc/img/sketch/hw_sim_whitebox.png" alt="sketch_HW" /></td>
-</tr>
-</tbody>
-</table>
-
-<ul>
-<li>generic model <strong>API</strong> (<strong>A</strong>plication <strong>P</strong>rogramming <strong>I</strong>nterface), abstracting the software development problematics.</li>
-</ul>
-
-<table>
-<thead>
-<tr>
-<th align="center"></th>
-</tr>
-</thead>
-
-<tbody>
-<tr>
-<td align="center"><img src="https://labsim.github.io/technical-doc/img/sketch/sw_simple_api.png" alt="sketch_API" /></td>
-</tr>
-
-<tr>
-<td align="center"><em>Yep, i know. pretty simple. that&rsquo;s the point :)</em></td>
-</tr>
-</tbody>
-</table>
-
-<ul>
-<li><p>performant <strong>WYSIWYG</strong> (<strong>W</strong>hat <strong>Y</strong>ou <strong>S</strong>ee <strong>I</strong>s <strong>W</strong>hat <strong>Y</strong>ou <strong>G</strong>et) tools to setup a simulation.</p></li>
-
-<li><p>for the guru, a <strong>DIY</strong> (<strong>D</strong>o <strong>I</strong>t <strong>Y</strong>ourself) pipeline shorcut through a fully <strong>XML</strong> (e<strong>X</strong>tended <strong>M</strong>arkup <strong>L</strong>angage) based environment.</p></li>
-</ul>
-
-<p><br></p>
-
-<h4 id="4-multi-disciplinar"><strong>4. Multi-disciplinar</strong></h4>
-
-<p>Innovate, mix, blend&hellip;</p>
-
-<table>
-<thead>
-<tr>
-<th align="center"></th>
-</tr>
-</thead>
-
-<tbody>
-<tr>
-<td align="center"><img src="https://labsim.github.io/technical-doc/img/sketch/multidisciplinar_sim_composition_5.png" alt="sketch_multidisciplinar" /></td>
-</tr>
-</tbody>
-</table>
-
-<h4 id="5-modular"><strong>5. Modular</strong></h4>
-
-<p>Simulation-to-simulaton modularity, fastening iteration.</p>
-
-<table>
-<thead>
-<tr>
-<th align="center"></th>
-</tr>
-</thead>
-
-<tbody>
-<tr>
-<td align="center"><img src="https://labsim.github.io/technical-doc/img/sketch/sim_to_sim_arch_composition_4.png" alt="sketch_sim_to_sim" /></td>
-</tr>
-</tbody>
-</table>
-
-<hr />
-
-<h2 id="software-architecture">Software Architecture</h2>
-
-<table>
-<thead>
-<tr>
-<th align="center"></th>
-</tr>
-</thead>
-
-<tbody>
-<tr>
-<td align="center"><img src="https://labsim.github.io/technical-doc/img/sketch/data_centric_arch_0.png" alt="sketch_soft_arch_0" /></td>
-</tr>
-</tbody>
-</table>
-
-<p>N-tier layered architecture is a common pattern in software development, especialy the 3-tier with : the UI (User Interface), the BLL (Business Logic Layer), the DB (Data Base), each layer&rsquo;s interface &amp; the top-down workflow. It address a lot of problematic and solve many of them but&hellip; <strong>not our</strong>.</p>
-
-<p><em>Why ?</em> Simply because we want a modular workflow, users should be able to easily implement, integrate or modify their <em>Model</em>. Some of them lie in the UI layer &amp; some in the BL Layer but, empirically, we now know that none of them rely in the DB Layer.</p>
-
-<table>
-<thead>
-<tr>
-<th align="center"></th>
-</tr>
-</thead>
-
-<tbody>
-<tr>
-<td align="center"><img src="https://labsim.github.io/technical-doc/img/sketch/data_centric_arch_1.png" alt="sketch_soft_arch_1" /></td>
-</tr>
-</tbody>
-</table>
-
-<p>More exactly, users fondamentally <strong>don&rsquo;t want to</strong> implement these DB <em>Model</em> but they <strong>have to</strong> because of their need of result. It&rsquo;s an environmental constraint. We noticed, as many other, that, even when doing some real-time piloted simulation for research, <strong>the key point is <em>data</em></strong>.</p>
-
-<table>
-<thead>
-<tr>
-<th align="center"></th>
-</tr>
-</thead>
-
-<tbody>
-<tr>
-<td align="center"><img src="https://labsim.github.io/technical-doc/img/sketch/dds_arch.png" alt="sketch_dds_arch" /></td>
-</tr>
-</tbody>
-</table>
-
-<p>So, we place data at the core of our simulation software ecosystem, using cloud-based middleware by embrassing the <a href="http://www.omg.org"><strong>OMG</strong></a> (<strong>O</strong>bject <strong>M</strong>anagement <strong>G</strong>roup) <strong>DDS</strong> (<strong>D</strong>ata <strong>D</strong>istribution <strong>S</strong>ervice) standard. Introduced in 2004, DDS is a standard for Real-Time, Dependable and High-Performance Publish/Subscribe. DDS behaviour and semantics can be controlled via a rich set of <strong>QoS</strong> (<strong>Q</strong>uality of <strong>S</strong>ervice) Policies.</p>
-
-<table>
-<thead>
-<tr>
-<th align="center"></th>
-</tr>
-</thead>
-
-<tbody>
-<tr>
-<td align="center"><img src="https://labsim.github.io/technical-doc/img/sketch/dds_cloud.png" alt="sketch_dds_cloud" /></td>
-</tr>
-</tbody>
-</table>
-
-<p>DDS allow us to organize the main domain in logical partition. In our case, the LABSIM domain is composed of each facility partition. The all space is called the <strong>DDS Global Data Space</strong>.</p>
-
-<table>
-<thead>
-<tr>
-<th align="center"></th>
-</tr>
-</thead>
-
-<tbody>
-<tr>
-<td align="center"><img src="https://labsim.github.io/technical-doc/img/sketch/dds_topic.png" alt="sketch_dds_topic" /></td>
-</tr>
-</tbody>
-</table>
-
-<p>In each DDS partition, there could be one or more topic. The topic is defined by :</p>
-
-<ul>
-<li><p>an <strong>IDL</strong> (<strong>I</strong>nterface <strong>D</strong>efinition <strong>L</strong>anguage) file describing the data structure.</p></li>
-
-<li><p>a set of DDS Topic QoS defining it&rsquo;s bahaviour.</p></li>
-
-<li><p>a key identifing each topic instance.</p></li>
-</ul>
-
-<table>
-<thead>
-<tr>
-<th align="center"></th>
-</tr>
-</thead>
-
-<tbody>
-<tr>
-<td align="center"><img src="https://labsim.github.io/technical-doc/img/sketch/dds_resume.png" alt="sketch_dds_resume" /></td>
-</tr>
-</tbody>
-</table>
-
-<p>Here is the typical DDS Workflow representing the object relationnal mapping with their level of interaction with the global data space, sorted top-down from our frontend <strong>POV</strong> (<strong>P</strong>oint <strong>O</strong>f <strong>V</strong>iew) :</p>
-
-<ul>
-<li><p>DataWriter <strong>-&gt;</strong> Topic <strong>-&gt;</strong> DataReader.</p></li>
-
-<li><p>Publisher <strong>-&gt;</strong> Partition <strong>-&gt;</strong> Subscriber.</p></li>
-
-<li><p>DomainParticipant <strong>&lt;-&gt;</strong> Domain.</p></li>
-</ul>
-
-<table>
-<thead>
-<tr>
-<th align="center"></th>
-</tr>
-</thead>
-
-<tbody>
-<tr>
-<td align="center"><img src="https://labsim.github.io/technical-doc/img/sketch/dds_domain.png" alt="sketch_dds_domain" /></td>
-</tr>
-</tbody>
-</table>
-
-<p>And if you want to go with a more detailled view of the multiplicity of instances, samples timeline, streams&hellip; <a href="http://portals.omg.org/dds/omg-dds-standard/"><em>You&rsquo;re welcome</em></a>.</p>
-
-<table>
-<thead>
-<tr>
-<th align="center"></th>
-</tr>
-</thead>
-
-<tbody>
-<tr>
-<td align="center"><img src="https://labsim.github.io/technical-doc/img/sketch/data_centric_arch_6.png" alt="sketch_soft_arch_6" /></td>
-</tr>
-</tbody>
-</table>
-
-<p>So, here we are ! This is a typical LABSIM software architecture. Let&rsquo;s began the description with our main component here, <strong>data</strong>.</p>
-
-<table>
-<thead>
-<tr>
-<th align="center"></th>
-</tr>
-</thead>
-
-<tbody>
-<tr>
-<td align="center"><img src="https://labsim.github.io/technical-doc/img/sketch/data_centric_arch_7.png" alt="sketch_soft_arch_7" /></td>
-</tr>
-</tbody>
-</table>
-
-<table>
-<thead>
-<tr>
-<th align="center"></th>
-</tr>
-</thead>
-
-<tbody>
-<tr>
-<td align="center"><img src="https://labsim.github.io/technical-doc/img/sketch/data_centric_arch_8.png" alt="sketch_soft_arch_8" /></td>
-</tr>
-</tbody>
-</table>
-
-<table>
-<thead>
-<tr>
-<th align="center"></th>
-</tr>
-</thead>
-
-<tbody>
-<tr>
-<td align="center"><img src="https://labsim.github.io/technical-doc/img/sketch/data_centric_arch_9.png" alt="sketch_soft_arch_9" /></td>
-</tr>
-</tbody>
-</table>
-
-<table>
-<thead>
-<tr>
-<th align="center"></th>
-</tr>
-</thead>
-
-<tbody>
-<tr>
-<td align="center"><img src="https://labsim.github.io/technical-doc/img/sketch/data_centric_arch_10.png" alt="sketch_soft_arch_10" /></td>
-</tr>
-</tbody>
-</table>
-
-<table>
-<thead>
-<tr>
-<th align="center"></th>
-</tr>
-</thead>
-
-<tbody>
-<tr>
-<td align="center"><img src="https://labsim.github.io/technical-doc/img/sketch/kronos_rhea_sw_arch_7.png" alt="sketch_kronos_rhea_arch" /></td>
-</tr>
-</tbody>
-</table>
-
-<table>
-<thead>
-<tr>
-<th align="center"></th>
-</tr>
-</thead>
-
-<tbody>
-<tr>
-<td align="center"><img src="https://labsim.github.io/technical-doc/img/sketch/thetys_ocean_sw_arch_18.png" alt="sketch_thetys_ocean_arch_18" /></td>
-</tr>
-</tbody>
-</table>
-
-<table>
-<thead>
-<tr>
-<th align="center"></th>
-</tr>
-</thead>
-
-<tbody>
-<tr>
-<td align="center"><img src="https://labsim.github.io/technical-doc/img/sketch/thetys_ocean_sw_arch_25.png" alt="sketch_thetys_ocean_arch_25" /></td>
-</tr>
-</tbody>
-</table>
-
-<table>
-<thead>
-<tr>
-<th align="center"></th>
-</tr>
-</thead>
-
-<tbody>
-<tr>
-<td align="center"><img src="https://labsim.github.io/technical-doc/img/sketch/titans_global_sw_arch_3.png" alt="sketch_titans_arch_3" /></td>
-</tr>
-</tbody>
-</table>
-
-<table>
-<thead>
-<tr>
-<th align="center"></th>
-</tr>
-</thead>
-
-<tbody>
-<tr>
-<td align="center"><img src="https://labsim.github.io/technical-doc/img/sketch/titans_global_sw_arch_4.png" alt="sketch_titans_arch_4" /></td>
-</tr>
-</tbody>
-</table>
-
-<table>
-<thead>
-<tr>
-<th align="center"></th>
-</tr>
-</thead>
-
-<tbody>
-<tr>
-<td align="center"><img src="https://labsim.github.io/technical-doc/img/sketch/titans_global_sw_arch_5.png" alt="sketch_titans_arch_5" /></td>
-</tr>
-</tbody>
-</table>
-
-<table>
-<thead>
-<tr>
-<th align="center"></th>
-</tr>
-</thead>
-
-<tbody>
-<tr>
-<td align="center"><img src="https://labsim.github.io/technical-doc/img/sketch/titans_global_sw_arch_6.png" alt="sketch_titans_arch_6" /></td>
-</tr>
-</tbody>
-</table>
-
-<hr />
-
-<h2 id="software-topology">Software Topology</h2>
-
-<table>
-<thead>
-<tr>
-<th align="center"></th>
-</tr>
-</thead>
-
-<tbody>
-<tr>
-<td align="center"><img src="https://labsim.github.io/technical-doc/img/sketch/sw_medium_topographie_4.png" alt="sketch_soft_topo" /></td>
-</tr>
-</tbody>
-</table>
-
-<table>
-<thead>
-<tr>
-<th align="center"></th>
-</tr>
-</thead>
-
-<tbody>
-<tr>
-<td align="center"><img src="https://labsim.github.io/technical-doc/img/sketch/hw_medium_topographie_9.png" alt="sketch_hw_topo" /></td>
-</tr>
-</tbody>
-</table>
-
-<hr />
-
-<h2 id="model-integration-pipeline">Model Integration Pipeline</h2>
-
-<table>
-<thead>
-<tr>
-<th align="center"></th>
-</tr>
-</thead>
-
-<tbody>
-<tr>
-<td align="center"><img src="https://labsim.github.io/technical-doc/img/sketch/LABSIM_pipeline_simplified_10.png" alt="sketch_pipeline" /></td>
-</tr>
-</tbody>
-</table>
-
-<hr />
-
-<h2 id="simulation-composition-pipeline">Simulation Composition Pipeline</h2>
-
-<p><em>You can always get back or discover our landing site</em> <strong><em><a href="https://labsim.github.io">here</a></em></strong> :)</p>
+<p>*You can always get back or discover our <strong><em><a href="https://labsim.github.io">main website</a></em></strong> or browse our <strong><em><a href="https://github.com/labsim">software repositories</a></em></strong> :)</p>
 
 
 			<aside class="copyright" role="note">
@@ -904,7 +402,7 @@
 <nav class="pagination" aria-label="Footer">
   <div class="previous">
   
-      <a href="https://labsim.github.io/technical-doc/" title="Welcome">
+      <a href="https://labsim.github.io/technical-doc/labsim/" title="LABSIM">
         <span class="direction">
           Previous
         </span>
@@ -914,7 +412,7 @@
           </div>
           <div class="stretch">
             <div class="title">
-              Welcome
+              LABSIM
             </div>
           </div>
         </div>

@@ -7,6 +7,11 @@
   </url>
   
   <url>
+    <loc>https://labsim.github.io/technical-doc/labsim/</loc>
+    <lastmod>2017-02-22T17:00:00+01:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://labsim.github.io/technical-doc/simulation-software-ecosystem/</loc>
     <lastmod>2017-02-22T17:00:00+01:00</lastmod>
   </url>
@@ -14,6 +19,27 @@
   <url>
     <loc>https://labsim.github.io/technical-doc/roadmap/</loc>
     <lastmod>2017-02-22T17:00:00+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://labsim.github.io/technical-doc/titans/</loc>
+    <lastmod>2017-02-22T17:00:00+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://labsim.github.io/technical-doc/olympiens/</loc>
+    <lastmod>2017-02-22T17:00:00+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://labsim.github.io/technical-doc/colosses/</loc>
+    <lastmod>2017-02-22T17:00:00+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://labsim.github.io/technical-doc/colosses/</loc>
+    <lastmod>2017-02-22T17:00:00+01:00</lastmod>
+    <priority>0</priority>
   </url>
   
   <url>
@@ -23,6 +49,18 @@
   </url>
   
   <url>
+    <loc>https://labsim.github.io/technical-doc/labsim/</loc>
+    <lastmod>2017-02-22T17:00:00+01:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://labsim.github.io/technical-doc/olympiens/</loc>
+    <lastmod>2017-02-22T17:00:00+01:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>https://labsim.github.io/technical-doc/roadmap/</loc>
     <lastmod>2017-02-22T17:00:00+01:00</lastmod>
     <priority>0</priority>
@@ -30,6 +68,12 @@
   
   <url>
     <loc>https://labsim.github.io/technical-doc/simulation-software-ecosystem/</loc>
+    <lastmod>2017-02-22T17:00:00+01:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://labsim.github.io/technical-doc/titans/</loc>
     <lastmod>2017-02-22T17:00:00+01:00</lastmod>
     <priority>0</priority>
   </url>
