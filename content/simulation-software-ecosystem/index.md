@@ -10,15 +10,15 @@ weight: 20
 
 ## Guidelines
 
-{{< speakerdeck 4e8126e72d853c0060001f97 >}}
+{{< speakerdeck 11ccb1417ded42b0bd6a79acefe4e18c >}}
 
 ## High-level architecture
 
-{{< speakerdeck 4e8126e72d853c0060001f97 >}}
+{{< speakerdeck 7ba94c4f41ce4b07a6a02e2c982d984b >}}
 
 ## Low-level architecture
 
-{{< speakerdeck 4e8126e72d853c0060001f97 >}}
+{{< speakerdeck c5655a216a0c4c5f92a340bd5cb77cc4 >}}
 
 ## Software topology
 
@@ -30,7 +30,7 @@ weight: 20
 
 ## Hardware topology
 
-{{< speakerdeck 4e8126e72d853c0060001f97 >}}
+{{< speakerdeck 2a55ea2ab1064eedacbc9cc1744c2f4e >}}
 
 ## Scientific topology
 
@@ -38,11 +38,11 @@ weight: 20
 
 ## Pipelines for dummies
 
-{{< speakerdeck 4e8126e72d853c0060001f97 >}}
+{{< speakerdeck 02d4d47c1d454c05a686e56f5f976758 >}}
 
 ## Model integration pipeline
 
-{{< speakerdeck 4e8126e72d853c0060001f97 >}}
+{{< speakerdeck 622e07e1bd9941aea87347eda5b26621 >}}
 
 ## Simulation composition pipeline
 
